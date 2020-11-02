@@ -1,0 +1,205 @@
+if ($.lang == undefined) $.lang = {};
+
+$.lang.en = {
+  LOADING: "Loading...", // DREAM_SACP_TPOP_LOADING_ING
+  SERVER_UPDATED: "Updating service information...",
+
+  // Action Bar Title
+  APT_NAME: "Raemian Firstige", // KDS_SACP_OPT_RAEMIAN_FIRSTIGE
+  MAINEDIT: "Favorites", //DREAM_SACP_OPT_FAVORITES_M_SMARTTHINGS_ABB
+  ALARM: "Notifications", // DREAM_SACP_HEADER_NOTIFICATIONS_M_SMARTTHINGS, DREAM_SACP_OPT_NOTIFICATIONS_M_SMARTTHINGS_ABB, DREAM_SACP_HEADER_NOTIFICATIONS
+  HELP_PAGE: "Help", // DREAM_SACP_OPT_HELP
+  PLUGIN_INFO: "Information",
+  LICENSES: "Open Source Licenses", // DREAM_BIX_OPT_OPEN_SOURCE_LICENSE_ABB
+  PRIVACY_POLICY: "Privacy Policy", // DREAM_VVM_TMBODY_PRIVACY_POLICY_VZW
+  TERMS_N_CONDITIONS: "Terms and Conditions", // DREAM_SAC_OPT_TERMS_AND_CONDITIONS
+  PERSONAL_INFO_3RD_PARTY_PROV_AGREEMENT: "Personal Information Third Party Provision Agreement",
+  AGREEMENT_HEADER_TNC: "Update to %s Terms and Conditions",
+  AGREEMENT_HEADER_TPPA: "Update to %s Personal Information Third Party Provision Agreement",
+  AGREEMENT_HEADER_MULTIPLE: "Update to %s Policies",
+  AGREEMENT_BODY_FRONT: "To continue, agree to our updated ",
+  AGREEMENT_BODY_AND: " and ",
+  AGREEMENT_BODY_TAIL: ".",
+  AGREEMENT_BUTTON: "Agree",
+  //ADDHOMECARD: "Add to Favorites",
+  //REMOVEHOMECARD: "Remove from Favorites",
+  PARCEL_SERVICE: "Deliveries", // DREAM_SACP_HEADER_DELIVERIES_M_SMARTTHINGS
+  VISITOR_SERVICE: "Visitors",
+  CCTV_SERVICE: "CCTV",
+
+  // Home screen
+  SERVICEMENU: "Menu", // DREAM_SACP_OPT_MENU_M_SMARTTHINGS
+  NOTIFICATION_TAB: "Notices", // DREAM_SACP_BUTTON2_NOTICES
+  PARKING_TAB: "Vehicle information", // DREAM_SACP_BUTTON2_VEHICLE_INFORMATION
+  PARKING_LOCATION_TAB: "Parking location", // DREAM_SACP_HEADER_PARKING_LOCATION
+  PARKING_HISTORY_TAB: "Vehicle entry history", // DREAM_SACP_HEADER_VEHICLE_ENTRY_HISTORY
+  BILL_TAB: "Utility Fee",
+
+  // FAVORITE SETTING EDIT
+  PARCEL_FC_TEXT: "Deliveries", // DREAM_SACP_TMBODY_DELIVERIES_M_SMARTTHINGS
+  PARKING_LOCATION_FC_TEXT: "Parking location", // DREAM_SACP_TMBODY_PARKING_LOCATION
+  PARKING_HISTORY_FC_TEXT: "Vehicle entries", // DREAM_SACP_TMBODY_VEHICLE_ENTRIES_M_SMARTTHINGS
+
+  PARCEL_TAB: "Deliveries", // DREAM_SACP_HEADER_DELIVERIES_M_SMARTTHINGS
+  ENERGY_TAB: "Energy usage", // DREAM_SACP_BUTTON2_ENERGY_USAGE
+  ADMIN_TAB: "Admin",
+
+  // SETTINGS
+  SAVE_BUTTON: "Done", // DREAM_SACP_BUTTON_DONE_20
+  CANCEL_BUTTON: "Cancel", // DREAM_SACP_BUTTON_CANCEL_20
+
+  CONNECTION_ERROR: "Couldn't connect. Try again.", // DREAM_SACP_BODY_COULDNT_CONNECT_TRY_AGAIN
+  NETWORK_ERROR: "Network or server error occured. Try again later.",
+  NETWORK_DISCONNECTION: "No network connection. Connect to a network and try again.", // DREAM_SACP_BODY_COULDREAM_SACP_BODY_NO_NETWORK_CONNECTION_CONNECT_TO_A_NETWORK_AND_TRY_AGAINDNT_CONNECT_TRY_AGAIN
+  OK_BUTTON: "OK", // DREAM_GN_BUTTON_OK_10
+  FAVORITE_NO_CASE: "At least one favorite is required.", // DREAM_SACP_TPOP_AT_LEAST_ONE_FAVORITE_IS_REQUIRED
+  FAVORITE_OK: "Changes to Favorites saved.", // DREAM_SACP_TPOP_CHANGES_TO_FAVORITES_SAVED
+  FAVORITE_CANCEL: "Changes to Favorites canceled.", // DREAM_SACP_TPOP_CHANGES_TO_FAVORITES_CANCELED
+  FAVORITE_ADDED: "Added to Favorites.",
+  FAVORITE_REMOVED: "Removed from Favorites.",
+
+  // ALARM
+  ALARM_NOTIFICATION: "Notices", // DREAM_SACP_HEADER_NOTICES
+  ALARM_PARCEL: "Deliveries", // DREAM_SACP_TMBODY_DELIVERIES_M_SMARTTHINGS
+  ALARM_PARKING_LOCATION: "Car Entry", // DREAM_SACP_TMBODY_PARKING_LOCATION
+  ALARM_PARKING_HISTORY: "Vehicle entries", // DREAM_SACP_TMBODY_VEHICLE_ENTRIES_M_SMARTTHINGS
+  ALARM_PARKING_VEHICLE_ENTRY: "Vehicle entry",
+  ALARM_PARKING_VEHICLE_EXIT: "Vehicle exit",
+  ALARM_PARKING_VEHICLE_ENTRY_AND_EXIT: "Vehicle entry and exit",
+  ALARM_ADMIN: "Management expense",
+  ALARM_VISITOR: "Visitors",
+  ALARM_ON: "On", //DREAM_SACP_SBODY_ON
+  ALARM_OFF: "Off", //DREAM_SACP_SBODY_OFF
+
+  //NOTIFICATION
+  NOTIFICATION_NO_ITEM: "No notices", // IDS_SSCHOL_BODY_NO_NOTICES
+  NOTIFICATION_CONGRATULATION: "Congratulations on moving in",
+  NOTIFICATION_CONGRATULATION_SUB: "Sincerely congratulate you<br>on moving into Raemian Firstige",
+  NOTIFICATION_RECENT: "Recent", // DREAM_GCA_HEADER_RECENT
+  NOTIFICATION_LIST: "List", // IDS_MUSIC_BUTTON_LIST
+
+  //PARKING CARD
+  PARKING_INCOMING: "Entry", // DREAM_SACP_BODY_ENTRY_M_VEHICLE
+  PARKING_OUTGOING: "Outgoing",
+  PARKING_VEHICLE_ENTRY: "Vehicle entry",
+  PARKING_VEHICLE_EXIT: "Vehicle exit",
+  PARKING_VEHICLE_ENTRY_AND_EXIT: "Vehicle entry and exit",
+  PARKING_NO_ITEM: "No parking locations or vehicle entry history", // DREAM_SACP_NPBODY_NO_PARKING_LOCATIONS_OR_VEHICLE_ENTRY_HISTORY
+  PARKING_NO_VEHICLE_INFORMATION: "No vehicle information",
+  PARKING_NO_LOCATION_RECORD: "No parking location saved", // DREAM_SACP_NPBODY_NO_PARKING_LOCATION_SAVED
+  PARKING_NO_HISTORY_RECORD: "No vehicle entry history", // DREAM_SACP_NPBODY_NO_VEHICLE_ENTRY_HISTORY
+  PARKING_NO_VEHICLE_ENTRY_RECORD: "No vehicle entry history",
+  PARKING_NO_VEHICLE_EXIT_RECORD: "No vehicle exit history",
+  PARKING_NO_VEHICLE_ENTRY_AND_EXIT_RECORD: "No vehicle entry and exit history",
+  PARKING_LOCATION_BANNER: "%1$s is in %2$s",  // DREAM_SACP_NPBODY_P1SS_IS_IN_P2SS_M_VEHICLE
+  PARKING_HISTORY_BANNER: "%1$s entered at %2$s", // DREAM_SACP_NPBODY_P1SS_ENTERED_AT_P2SS_M_VEHICLE
+
+  //BILL CARD, ENERGY CARD
+  TAB_ALL: "All", // DREAM_SACP_TAB_ALL_ABB4
+  TAB_POWER: "Electricity", // DREAM_SACP_TAB_ELECTRICITY_ABB
+  TAB_WATER: "Water", // DREAM_SACP_TAB_WATER_M_ENERGY_TYPE_ABB
+  TAB_HEATING: "Heat", // DREAM_SACP_BODY_HEAT_M_SMARTTHINGS
+  TAB_GAS_LINE: "Gas", // DREAM_SACP_TAB_GAS_ABB
+  TAB_HOTWATER : "Hot&nbspwater", // DREAM_SACP_TAB_HOT_WATER_M_ENERGY_TYPE_ABB
+  LAST_MONTH: "Last %d month", // PLURAL_ONE_SACP_BODY_LAST_PD_MONTHS_ABB
+  LAST_MONTHS: "Last %d months", // PLURAL_OTHER_SACP_BODY_LAST_PD_MONTHS_ABB
+
+  //PARCEL CARD
+  UNDELIVERED: "Undelivered", // DREAM_SACP_TAB_UNDELIVERED_M_SMARTTHINGS_ABB
+  DELIVERED: "Delivered", // DREAM_SACP_TAB_DELIVERED_M_ITEM_ABB
+  NO_UNDELIVERED: "No undelivered packages", // DREAM_SACP_NPBODY_NO_UNDELIVERED_PACKAGES
+  PARCELCARD_TITLE_MULTIPLE: "%d undelivered packages", // PLURAL_OTHER_SACP_HEADER_PD_UNDELIVERED_PACKAGES
+  PARCELCARD_TITLE_SINGLE: "%d undelivered package", // PLURAL_ONE_SACP_HEADER_PD_UNDELIVERED_PACKAGES
+  PARCELCARD_BODY_MULTIPLE: "%d undelivered packages", // PLURAL_OTHER_SACP_BODY_PD_UNDELIVERED_PACKAGES
+  PARCELCARD_BODY_SINGLE: "%d undelivered package", // PLURAL_ONE_SACP_BODY_PD_UNDELIVERED_PACKAGES
+
+  // BILL PAGE
+  //NORMAL_MANAGEMENT_EXPENSE: "Maintenance Fee",
+  //HOMENETWORK_MANAGEMENT_COST: "HomeNetwork Mgt.",
+  //REPAIRING_CAST: "Repair",
+  //MANAGEMENT_IN_TRUST_COST: "Consignment Mgt.",
+  //COMPARE_ANOTHER_HOUSES: "Comparison with neighborhood average",
+
+  // ENERGY SERVICE
+  ENERGYCARD_NO_ITEM: "No energy usage data",  // DREAM_SACP_NPBODY_NO_ENERGY_USAGE_DATA
+  ENERGYPAGE_UP_TO_TODAY: "Up to today", // DREAM_SACP_BODY_UP_TO_TODAY
+  ENERGYPAGE_PREVIOUS_MONTH: "Previous month comparison", // DREAM_SACP_HEADER_PREVIOUS_MONTH_COMPARISON
+  COMPARE_PRV_YEAR: "Year-on-year comparison", // DREAM_SACP_HEADER_YEAR_ON_YEAR_COMPARISON
+  ENERGYPAGE_NO_RECORD: "No energy usage data", // DREAM_SACP_NPBODY_NO_ENERGY_USAGE_DATA
+  ENERGYPAGE_HIGHEST_USAGE: "Highest usage", // DREAM_SACP_BODY_HIGHEST_USAGE
+  ENERGYPAGE_LOWEST_USAGE : "Lowest usage", // DREAM_SACP_BODY_LOWEST_USAGE
+  ENERGYPAGE_MONTHLY_USAGE: "Monthly usage", // DREAM_SAC_HEADER_MONTHLY_USAGE
+
+  // ADMIN Service
+  ADMINCARD_NO_ITEM : "To Do",
+  ADMIN_AMOUNT_AFTER_DELIVERY: "Amount after delivery",
+  ADMIN_DUE_DATE: "Due date",
+  ADMIN_ELECTRIC_CHARGES : "Electric Charges",
+  ADMIN_WATER_CHARGES : "Water Charges",
+  ADMIN_HEATING_CHARGES : "Heating Charges",
+  ADMIN_GENERATION_MANAGEMENT_EXPENSES : "Generation Management Expenses",
+  ADMIN_HOUSEHOLD_EXPENSES : "Household Expenses",
+  ADMIN_OTHER_CHARGES : "Other Charges",
+  ADMIN_COMPARE_MY_HOUSE : "My House",
+  ADMIN_COMPARE_AVERAGE : "Average",
+  ADMIN_COMPARE_LAST_YEAR : "Year-on-year",
+  ADMIN_COMPARE_MONTHLY : "Monthly usage",
+  ADMINPAGE_HEADER_UP_TEXT : "I %s %d",
+  ADMINPAGE_HEADER_UP_SAME_TEXT : "Same as last month",
+  ADMINPAGE_HEADER_SAVED_DOWN_TEXT : "than last month",
+  ADMINPAGE_HEADER_EXCEEDED_DOWN_TEXT : "from last month",
+  ADMINPAGE_HEADER_SAVED_TEXT : "saved",
+  ADMINPAGE_HEADER_EXCEEDED_TEXT : "exceeded",
+  ADMINPAGE_HEADER_NO_ITEM : "How about saving energy",
+
+  // Visitor
+  NO_VISITOR: "No visitors",
+  VISITORCARD_TITLE_MULTIPLE: "%d Visitors today",
+  VISITORCARD_TITLE_SINGLE: "%d Visitor today",
+  VISITORCARD_BODY_MULTIPLE: "%d Visitors today",
+  VISITORCARD_BODY_SINGLE: "%d Visitor today",
+  MISSED_VISITOR: "Missed visitor",
+  PREVIOUS_BUTTON: "Previous",
+  NEXT_BUTTON: "Next",
+
+  // CCTV
+  CCTV_NO_ITEM: "No CCTV data",
+  CCTV_TITLE: "CCTV %d",
+
+  // Date
+  YESTERDAY: "Yesterday", // DREAM_SAC_HEADER_YESTERDAY
+  TODAY: "Today", // DREAM_SAC_HEADER_TODAY
+  TIME_YESTERDAY: "%s yesterday", // DREAM_SACP_BODY_PS_YESTERDAY
+  TIME_TODAY: "%s today", // DREAM_SACP_BODY_PS_TODAY
+
+  // APT
+  BUILDING_NO_UNIT: "%1$d-%2$d", // DREAM_SACP_BODY_P1SD_P2SD_M_APARTMENT_BLOCK
+
+  // Help
+  HELP_APT_SERVICE: "Apartment services", // DREAM_SACP_HEADER_APARTMENT_SERVICES
+  HELP_VOICE_CMD: "Voice control", // DREAM_SACP_HEADER_VOICE_CONTROL
+  HELP_NOTICE_DESC: "You can see the apartment notice.",
+  HELP_DELIVERY_DESC: "See general deliveries from the past 1 months.", // DREAM_SACP_BODY_SEE_GENERAL_MAIL_FOOD_AND_FROZEN_DELIVERIES_FROM_THE_PAST_2_MONTHS
+  HELP_PARK_ONE_PASS_KEY: "One-pass key",
+  HELP_PARK_VEHICLE_ENTRY: "Vehicle entry",
+  HELP_PARK_VEHICLE_EXIT: "Vehicle exit",
+  HELP_PARK_VEHICLE_ENTRY_AND_EXIT: "Vehicle entry and exit",
+  HELP_PARK_LOCATION_DESC: "See where your registered vehicles parked in the apartment complex.",
+  HELP_PARK_ENTRY_DESC: "See when your registered vehicles entered the apartment complex during the past 2 months.",
+  // HELP_PARK_DESC: "See when your registered vehicles entered the apartment complex during the past 2 months.", // DREAM_SACP_BODY_SEE_WHEN_YOUR_REGISTERED_VEHICLES_ENTERED_THE_APARTMENT_COMPLEX_DURING_THE_PAST_2_MONTHS
+  HELP_ENERGY_DESC: "Check your monthly energy usage, plus year-on-year comparisons with the previous year. Current month's data is available on the day the meter is read. Energy use shown here may differ from your actual usage.", //DREAM_SACP_BODY_CHECK_YOUR_MONTHLY_ENERGY_USAGE_DURING_THE_PAST_12_MONTHS_PLUS_YEAR_ON_YEAR_COMPARISONS_WITH_THE_PREVIOUS_YEAR_MSG
+  HELP_OPT_TITLE: "Options", // DREAM_SACP_OPT_OPTIONS_M_SMARTTHINGS
+  HELP_OPT_FAVORITE_DESC: "View, hide, or reorder your favorite items for quick access. Items that are hidden can still be found in the full menu.", // DREAM_SACP_BODY_VIEW_HIDE_OR_REORDER_YOUR_FAVORITE_ITEMS_FOR_QUICK_ACCESS_ITEMS_THAT_ARE_HIDDEN_CAN_STILL_BE_FOUND_IN_THE_FULL_MENU
+  HELP_OPT_NOTI_DESC: "Get notifications that are useful to you, or turn them off if you don't want to be interrupted.", // DREAM_SACP_BODY_GET_NOTIFICATIONS_THAT_ARE_USEFUL_TO_YOU_OR_TURN_THEM_OFF_IF_YOU_DONT_WANT_TO_BE_INTERRUPTED
+
+  CURRENCY_WON : " won",
+
+  /*****  Voice assistant ********/
+  V_MORE_BTN: "More options",
+  V_BACK_BTN: "Navigate up",
+  V_CHECK_BTN: "Check",
+  V_MOVE_BTN: "Change order",
+  V_EXPAND_OPEN_BTN: "Expand list",
+  V_EXPAND_CLOSE_BTN: "Close list",
+  V_DROPDOWN_BTN: "Dropdown menu",
+};

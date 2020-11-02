@@ -1,0 +1,24 @@
+{
+  "appName": "smartappfirsttest-1583878632012-602",
+  "appType": "WEBHOOK_SMART_APP",
+  "webhookSmartApp": {
+    "targetUrl": "https://ce.homeiottf.com:5000"
+  },
+  "displayName": "Service Plugin(reference)",
+  "description": "Service Plugin(reference)",
+  "singleInstance": false,
+  "ui": {
+    "pluginId": "com.sds.plugin.homenet.service",
+    "dashboardCardsEnabled": true
+  },
+  "oauth": {
+    "clientName": "none",
+    "scope": [
+      "r:locations:*",
+      "x:devices:*",
+      "r:devices:*",
+      "w:devices:*",
+      "i:deviceprofiles"
+    ]
+  }
+}

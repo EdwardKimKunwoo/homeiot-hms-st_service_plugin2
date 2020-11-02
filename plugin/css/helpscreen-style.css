@@ -1,0 +1,44 @@
+.hs_panel_text_box {
+  padding-top: 13px;
+  padding-bottom: 15px;
+  height: 56px;
+}
+
+.hs_panel_text_img {
+  width: 26px;
+  height: 26px;
+  float:left;
+}
+
+.hs_panel_text_subtitle {
+  color: #252525;
+  opacity: 1.0;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 18px;
+  float:left;
+}
+
+.hs_panel_text_subtext {
+  color: #252525;
+  opacity: 1.0;
+  height: 17px;
+  line-height: 17px;
+  text-align: center;
+  font-size: 14px;
+  float:left;
+}
+
+.hs_panel_text_contents {
+  line-height: 16px;
+  color: #898989;
+  opacity: 1.0;
+  font-size: 14px;
+}
+
+
+.hs_panel_icon_mask {
+  background-color: white;
+  -webkit-mask-size: 26px 26px;
+}

@@ -1,0 +1,9 @@
+{
+  "appInternalName": "service_plugin_reference",
+  "appType": "WEBHOOK_SMART_APP",
+  "localizations": {
+    "en-US": {
+      "metadataDisplayName": "service_plugin_reference"
+    }
+  }
+}

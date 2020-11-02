@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="viewport-fit=contain, width=device-width, initial-scale=1, user-scalable=no">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache">
+
+  <link rel="stylesheet" type="text/css" href="css/main-style.css" />
+  <title>Home Automation System</title>
+
+  <!-- EXTERNAL API -->
+  <script type="text/javascript" src="lib/jquery-min.js"></script>
+  <script type="text/javascript" src="lib/jquery.inview.js"></script>
+  <script type="text/javascript" src="lib/jquery.resizeend.js"></script>
+  <script type="text/javascript" src="lib/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="lib/jquery.toast.min.js"></script>
+  <script type="text/javascript" src="lib/jquery.ui.touch-punch.js"></script>
+  <script type="text/javascript" src="lib/chart.js"></script>
+  <script type="text/javascript" src="lib/date.js"></script>
+  <script type="text/javascript" src="lib/swiper.min.js"></script>
+  <script type="text/javascript" src="lib/jquery.scrollTo.js"></script>
+  <!-- script type="text/javascript" src="lib/tv-lib.js"></script-->
+
+  <script type="text/javascript" src="js/common/constant.js"></script>
+  <script type="text/javascript" src="res/i18n/ko.js"></script>
+  <script type="text/javascript" src="res/i18n/en.js"></script>
+  <script type="text/javascript" src="js/common/util.js"></script>
+  <script type="text/javascript" src="js/common/settings.js"></script>
+  <script type="text/javascript" src="js/common/aptbrand.js"></script>
+  <script type="text/javascript" src="config.js"></script>
+  <script type="text/javascript" src="js/common/service_data.js"></script>
+  <script type="text/javascript" src="js/common/service_util.js"></script>
+  <script type="text/javascript" src="js/common/load.js"></script>
+  <script type="text/javascript" src="res/svg/back-icon.svg.js"></script>
+  <script type="text/javascript" src="res/svg/more-menu.svg.js"></script>
+  <script type="text/javascript" src="res/svg/sem_checkedtextview_check_to_on_mtrl_000.svg.js"></script>
+  <script type="text/javascript" src="res/svg/sem_checkedtextview_check_to_on_mtrl_026.svg.js"></script>
+  <script type="text/javascript" src="res/svg/help_ic_status_energy.svg.js"></script>
+  <script type="text/javascript" src="res/svg/help_ic_status_delivery.svg.js"></script>
+  <script type="text/javascript" src="res/svg/help_ic_status_noti.svg.js"></script>
+  <script type="text/javascript" src="res/svg/help_ic_status_parking.svg.js"></script>
+  <script type="text/javascript" src="res/svg/help_ic_status_option.svg.js"></script>
+
+  <script type="text/javascript" src="res/svg/home_ic_status_admin.svg.js"></script>
+  <script type="text/javascript" src="res/svg/home_ic_status_admin_house.svg.js"></script>
+  <script type="text/javascript" src="res/svg/home_ic_status_cctv.svg.js"></script>
+  <script type="text/javascript" src="res/svg/home_ic_status_ems.svg.js"></script>
+  <script type="text/javascript" src="res/svg/home_ic_status_noti.svg.js"></script>
+  <script type="text/javascript" src="res/svg/home_ic_status_delivery.svg.js"></script>
+  <script type="text/javascript" src="res/svg/home_ic_status_parking.svg.js"></script>
+  <script type="text/javascript" src="res/svg/home_ic_status_visitor.svg.js"></script>
+
+  <script type="text/javascript" src="js/common/server_api.js"></script>
+  <script type="text/javascript" src="js/common/common.js"></script>
+
+  <script type="text/javascript" src="js/main/information.js"></script>
+  <script type="text/javascript" src="js/main/license.js"></script>
+  <script type="text/javascript" src="js/main/privacy.js"></script>
+  <script type="text/javascript" src="js/main/main_edit.js"></script>
+  <script type="text/javascript" src="js/main/main_alarm.js"></script>
+  <script type="text/javascript" src="js/main/help_screen.js"></script>
+  <script type="text/javascript" src="js/main/homenet_service_plugin.js"></script>
+  <script type="text/javascript" src="js/main/main_ripple.js"></script>
+  <script type="text/javascript" src="js/main/main_resize.js"></script>
+  <script type="text/javascript" src="js/main/main_dialog.js"></script>
+  <script type="text/javascript" src="js/main/main_uikit.js"></script>
+  <script type="text/javascript" src="js/main/actionbar.js"></script>
+  <script type="text/javascript" src="js/main/main_userinfo.js"></script>
+  <script type="text/javascript" src="js/main/main_serverinfo.js"></script>
+  <script type="text/javascript" src="js/main/main_banner.js"></script>
+  <script type="text/javascript" src="js/main/main_service_menu.js"></script>
+  <script type="text/javascript" src="js/main/main_motion.js"></script>
+  <script type="text/javascript" src="js/main/main_screen.js"></script>
+  <script type="text/javascript" src="js/main/main_screen_tv.js"></script>
+
+  <script type="text/javascript" src="js/index.js"></script>
+
+  <!--script type="text/javascript" src="js/service/empty.js"></script-->
+
+
+  <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="css/mainscreen-style.css" />
+  <link rel="stylesheet" type="text/css" href="css/basicinteraction-style.css" />
+  <link rel="stylesheet" type="text/css" href="css/mainedit-style.css" />
+  <link rel="stylesheet" type="text/css" href="css/helpscreen-style.css" />
+  <link rel="stylesheet" type="text/css" href="css/servicecards-style.css" />
+  <link rel="stylesheet" type="text/css" href="css/service/information-style.css" />
+
+</head>
+
+<body>
+  <div id="toast"></div>
+
+  <div id="actionBar"></div>
+
+  <div class="wrapper" id="errorMsg">
+    <div id="loading_error_dialog" class="modal modal_background" style="display:none">
+      <div style="flex:1"></div>
+      <div class="modal-content">
+        <div class="box">
+          <div id="loading_error_title" class="title"></div>
+          <div id="loading_error_msg" class="text"></div>
+          <div id="loading_error_button" class="close_btn"></div>
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+      <div style="flex:1"></div>
+    </div>
+  </div>
+
+  <div class="wrapper" id="errorMsg2">
+    <div id="request_error_dialog" class="modal modal_background" style="display:none">
+      <div style="flex:1"></div>
+      <div class="modal-content">
+        <div class="box">
+          <div id="request_error_title" class="title"></div>
+          <div id="request_error_msg" class="text"></div>
+          <div id="request_error_button" class="close_btn"></div>
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+      <div style="flex:1"></div>
+    </div>
+  </div>
+
+  <div class="wrapper" id="errorMsg3">
+    <div id="network_disconnection_dialog" class="modal modal_background" style="display:none">
+      <div style="flex:1"></div>
+      <div class="modal-content">
+        <div class="box">
+          <div id="network_disconnection_title" class="title"></div>
+          <div id="network_disconnection_msg" class="text"></div>
+          <div id="network_disconnection_button" class="close_btn"></div>
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+      <div style="flex:1"></div>
+    </div>
+  </div>
+
+  <div class="wrapper" id="errorMsg4">
+    <div id="initial_network_disconnection_dialog" class="modal modal_background" style="display:none">
+      <div style="flex:1"></div>
+      <div class="modal-content">
+        <div class="box">
+          <div id="initial_network_disconnection_title" class="title"></div>
+          <div id="initial_network_disconnection_msg" class="text"></div>
+          <div id="initial_network_disconnection_button" class="close_btn"></div>
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+      <div style="flex:1"></div>
+    </div>
+  </div>
+
+  <div class="wrapper" id="agreementDialog">
+    <div id="agreement_dialog" class="modal modal_background" style="display:none">
+      <div style="flex:1"></div>
+      <div class="modal-content">
+        <div class="box">
+          <div id="agreement_dialog_title" class="title"></div>
+          <div id="agreement_dialog_msg" class="text">
+            <span><a id="agreement_dialog_link1" class="link"></a></span>
+            <span><a id="agreement_dialog_link2" class="link"></a></span>
+          </div>
+          <div id="agreement_dialog_button" class="close_btn"></div>
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+      <div style="flex:1"></div>
+    </div>
+  </div>
+
+  <div id="loading" class="plugin-container" style="display:none;">
+    <div style="flex:1"></div>
+    <div style="text-align:center">
+      <img class="img" src="res/img/circle.png" />
+      <div class="text" data-lang="LOADING"></div>
+    </div>
+    <div style="flex:1"></div>
+  </div>
+
+  <div class="wrapper" id="mainCtrl">
+    <div id="contents" class="plugin-container">
+  
+      <!-- mainScreen -->
+      <div id="mainScreen" class="page_style bounce end_effect">
+        <div class="for_scroll"></div>
+        <div class="clear"></div>
+        <!-- main_service_menu_div -->
+        <div id="main_service_menu_div"></div>
+        <div class="clear" style="margin-top:14px"></div>
+
+        <!-- New Noti -->
+        <div id="mainBannerDiv" class="mainBannerClass"></div>
+        <div class="clear"></div>
+        <!-- servicecards -->
+        <div class="servicecards_page">
+          <div id="sortableDiv">
+            <!--div id="sortableDiv_9" class="sortable_style" >
+            <div id="inquiryCard" class="servicecards motion_card" onclick="inquiryCardOnClick()">
+              <div class="servicecards_title_space">
+                <div id="inquiryTitle" ></div>
+                <div class="clear"></div>
+              </div>
+              <div class="servicecards_data_space">
+                <div id="inquiryData" class="servicecards_data_text">TEL. 031-277-25XX</div>
+              </div>
+            </div>
+          </div-->
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Service Card Pages -->
+
+      <div id="pageloading" class="page_style" style="display:none">
+        <div style="flex:1"></div>
+        <div style="text-align:center">
+          <img class="img" src="res/img/circle.png" />
+          <div class="text" data-lang="LOADING"></div>
+        </div>
+        <div style="flex:1"></div>
+      </div>
+
+      <div id="notificationPage" class="notification_page_style bounce end_effect"> </div>
+      <div id="parkingPage" class="parking_page_detailed_style bounce end_effect"> </div>
+
+      <div id="visitorPage" class="page_detailed_style bounce end_effect"> </div>
+      <div id="adminPage" class="page_detailed_style bounce end_effect"> </div>
+      <div id="parcelPage" class="parcel_page_detailed_style"> </div>
+      <div id="energyPage" class="page_detailed_style"> </div>
+      <div id="informationPage" class="page_detailed_style bounce"> </div>
+      <div id="licensePage" class="page_detailed_style bounce"> </div>
+      <div id="privacyPage" class="page_detailed_style bounce"> </div>
+      <div id="mainEditPage" class="page_detailed_style" style="overflow: hidden;"> </div>
+      <div id="mainAlarmPage" class="page_detailed_style bounce"> </div>
+      <div id="helpScreenPage" class="page_detailed_style bounce end_effect"> </div>
+      <div id="billPage" class="page_detailed_style bounce"> </div>
+      <div id="votePage" class="page_detailed_style bounce"> </div>
+      <div id="contactsPage" class="page_detailed_style bounce"> </div>
+      <div id="inquiryPage" class="page_detailed_style bounce"> </div>
+      <div id="cctvPage" class="page_detailed_style bounce"> </div>
+
+    </div>
+  </div>
+
+  <template id='favorite_card_template'>
+    <div id='_grid' class='favorite_card tv_servicecard_item_css favorite_card'>
+      <div id='_img' class='favorite_card_img tv_servicecard_parking_item_image_css'>
+        <div id='_imgMask' class='favorite_card_img_mask'></div>
+        <div id='_imgImg'></div>
+      </div>
+      <div class='favorite_card_text_1_2_wrapper tv_servicecard_item_top_css'>
+        <span id='_text1' class='favorite_card_text_1 tv_servicecard_item_title_css'></span>
+        <span id='_text2' class='favorite_card_text_2 tv_servicecard_item_date_css'></span>
+      </div>
+      <div class='clear'></div>
+      <div class='favorite_card_text_3_4_wrapper'>
+        <span id='_text3' class='favorite_card_text_3 tv_servicecard_item_data_css'></span>
+        <span id='_text4' class='favorite_card_text_4 tv_servicecard_item_sub_data_css'></span>
+      </div>
+    </div>
+  </template>
+
+  <template id='detail_page_template'>
+    <div id='_header' class='detail_page_header'>
+      <div id='_text' class='detail_page_header_text'></div>
+      <div id='_line' class='detail_page_header_line'></div>
+    </div>
+    <div id='_body' class='detail_page_body'></div>
+  </template>
+
+  <template id='detail_page_card_template'>
+    <div id='_grid' class='detail_page_grid'>
+      <div id='_img' class='detail_page_grid_img'>
+        <div id='_imgMask' class='detail_page_grid_img_mask'></div>
+        <div id='_imgImg'></div>
+      </div>
+      <div id='_text1' class='detail_page_grid_text_1'></div>
+      <div id='_text2' class='detail_page_grid_text_2'></div>
+      <div class='detail_page_text_3_4_wrapper'>
+        <span id='_text3' class='detail_page_grid_text_3'></span>
+        <span id='_text4' class='detail_page_grid_text_4'></span>
+      </div>
+    </div>
+  </template>
+
+  <template id='common_loader_template'>
+    <div id='next_page_loader' class='loader_template_class'>
+      <div style='text-align:center'>
+        <img class='img' src='res/img/circle.png' />
+      </div>
+    </div>
+  </template>
+
+  <svg height='0' width='0'>
+    <defs>
+      <clipPath id='svgPathCardSubTitle'>
+        <rect x='0px' y='15px' rx='4px' ry='4px' width='59px' height='12px' />
+      </clipPath>
+      <clipPath id='svgPathNoti'>
+        <rect x='0px' y='0px' rx='4px' ry='4px' width='139px' height='18px' />
+        <rect x='0px' y='32px' rx='4px' ry='4px' width='288px' height='12px' />
+        <rect x='0px' y='54px' rx='4px' ry='4px' width='199px' height='12px' />
+      </clipPath>
+      <clipPath id='svgPathCctv'>
+        <rect x='0px' y='0px' width='1080' height='189px' />
+        <rect x='12px' y='205px' rx='4px' ry='4px' width='106px' height='18px' />
+      </clipPath>
+      <clipPath id='svgPathEnergyText'>
+        <rect x='32px' y='0px' rx='4px' ry='4px' width='106px' height='18px' />
+        <rect x='0px' y='27px' rx='4px' ry='4px' width='170px' height='12px' />
+      </clipPath>
+      <clipPath id='svgPathAdminText'>
+        <rect x='32px' y='28px' rx='4px' ry='4px' width='106px' height='18px' />
+        <rect x='0px' y='86px' rx='4px' ry='4px' width='170px' height='32px' />
+        <rect x='0px' y='136px' rx='4px' ry='4px' width='170px' height='12px' />
+      </clipPath>
+      <clipPath id='svgPathEnergyLegend'>
+        <rect x='0px' y='0px' rx='4px' ry='4px' width='96px' height='12px' />
+        <rect x='0px' y='18px' rx='4px' ry='4px' width='48px' height='12px' />
+      </clipPath>
+      <clipPath id='svgPathEnergyGraph'>
+        <rect x='0px' y='0px' rx='4px' ry='4px' width='18px' height='152px' />
+        <rect x='33px' y='30px' rx='4px' ry='4px' width='18px' height='122px' />
+        <rect x='66px' y='54px' rx='4px' ry='4px' width='18px' height='98px' />
+        <rect x='99px' y='20px' rx='4px' ry='4px' width='18px' height='132px' />
+        <rect x='132px' y='70px' rx='4px' ry='4px' width='18px' height='82px' />
+      </clipPath>
+      <clipPath id='svgPathOthers'>
+        <circle cx='20' cy='20' r='20' />
+        <rect x='52px' y='4px' rx='4px' ry='4px' width='236px' height='12px' />
+        <rect x='52px' y='23px' rx='4px' ry='4px' width='75px' height='18px' />
+      </clipPath>
+    </defs>
+  </svg>
+</body>
+
+</html>

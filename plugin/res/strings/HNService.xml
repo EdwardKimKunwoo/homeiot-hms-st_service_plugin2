@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<HOMENET_HNService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<Design_ID>DREAM_SACP_OPT_ABOUT_PS</Design_ID>
+		<String_ID>DREAM_ABOUT_PS_OPT</String_ID>
+		<String_Name>PLUGIN_INFO</String_Name>
+		<English_US>About %s</English_US>
+		<Korean>%s 정보</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TAB_ALL_ABB4</Design_ID>
+		<String_ID>DREAM_ALL_TAB_ABB4</String_ID>
+		<String_Name>TAB_ALL</String_Name>
+		<English_US>All</English_US>
+		<Korean>전체</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_HEADER_APARTMENT_SERVICES</Design_ID>
+		<String_ID>DREAM_APARTMENT_SERVICES_HEADER</String_ID>
+		<String_Name>HELP_APT_SERVICE</String_Name>
+		<English_US>Apartment services</English_US>
+		<Korean>아파트 서비스</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TPOP_AT_LEAST_ONE_FAVORITE_IS_REQUIRED</Design_ID>
+		<String_ID>DREAM_AT_LEAST_ONE_FAVORITE_IS_REQUIRED_TPOP</String_ID>
+		<String_Name>FAVORITE_NO_CASE</String_Name>
+		<English_US>At least one favorite is required.</English_US>
+		<Korean>즐겨찾기를 최소 1개 이상 등록해야 해요.</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BUTTON_CANCEL_20</Design_ID>
+		<String_ID>DREAM_CANCEL_BUTTON20</String_ID>
+		<String_Name>CANCEL_BUTTON</String_Name>
+		<English_US>Cancel</English_US>
+		<Korean>취소</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TPOP_CHANGES_TO_FAVORITES_CANCELED</Design_ID>
+		<String_ID>DREAM_CHANGES_TO_FAVORITES_CANCELED_TPOP</String_ID>
+		<String_Name>FAVORITE_CANCEL</String_Name>
+		<English_US>Changes to Favorites canceled.</English_US>
+		<Korean>즐겨찾기 편집이 취소되었어요.</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TPOP_CHANGES_TO_FAVORITES_SAVED</Design_ID>
+		<String_ID>DREAM_CHANGES_TO_FAVORITES_SAVED_TPOP</String_ID>
+		<String_Name>FAVORITE_OK</String_Name>
+		<English_US>Changes to Favorites saved.</English_US>
+		<Korean>즐겨찾기 편집이 완료되었어요.</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_CHECK_YOUR_MONTHLY_ENERGY_USAGE_DURING_THE_PAST_12_MONTHS_PLUS_YEAR_ON_YEAR_COMPARISONS_WITH_THE_PREVIOUS_YEAR_MSG</Design_ID>
+		<String_ID>DREAM_CHECK_YOUR_MONTHLY_ENERGY_USAGE_DURING_THE_PAST_12_MONTHS_PLUS_YEAR_ON_YEAR_COMPARISONS_WITH_THE_PREVIOUS_YEAR_MSG</String_ID>
+		<String_Name>HELP_ENERGY_DESC</String_Name>
+		<English_US>Check your monthly energy usage during the past 12 months, plus year-on-year comparisons with the previous year. Current month's data is available on the day the meter is read. Energy use shown here may differ from your actual usage.</English_US>
+		<Korean>전년도 동월 사용량을 비롯해 최근 12개월 동안의 월간 에너지 사용량을 확인해 보세요. 이번 달 사용량은 최근 자동 검침일에 측정한 값을 기준으로 한 사용량입니다. 여기에 표시되는 에너지 사용량은 실제 사용량과 다를 수 있습니다.</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_COULDNT_CONNECT_TRY_AGAIN</Design_ID>
+		<String_ID>DREAM_COULDNT_CONNECT_TRY_AGAIN</String_ID>
+		<String_Name>CONNECTION_ERROR</String_Name>
+		<English_US>Couldn't connect. Try again.</English_US>
+		<Korean>연결할 수 없습니다. 다시 시도해 주세요.</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TAB_DELIVERED_M_ITEM_ABB</Design_ID>
+		<String_ID>DREAM_DELIVERED_M_ITEM_TAB_ABB</String_ID>
+		<String_Name>DELIVERED</String_Name>
+		<English_US>Delivered</English_US>
+		<Korean>수령</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_HEADER_DELIVERIES_M_SMARTTHINGS</Design_ID>
+		<String_ID>DREAM_DELIVERIES_M_SMARTTHINGS_HEADER</String_ID>
+		<String_Name>PARCEL_TAB</String_Name>
+		<English_US>Deliveries</English_US>
+		<Korean>택배</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TMBODY_DELIVERIES_M_SMARTTHINGS</Design_ID>
+		<String_ID>DREAM_DELIVERIES_M_SMARTTHINGS_TMBODY</String_ID>
+		<String_Name>ALARM_PARCEL</String_Name>
+		<English_US>Deliveries</English_US>
+		<Korean>택배</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BUTTON_DONE_20</Design_ID>
+		<String_ID>DREAM_DONE_BUTTON20</String_ID>
+		<String_Name>SAVE_BUTTON</String_Name>
+		<English_US>Done</English_US>
+		<Korean>완료</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TAB_ELECTRICITY_ABB</Design_ID>
+		<String_ID>DREAM_ELECTRICITY_TAB_ABB</String_ID>
+		<String_Name>TAB_POWER</String_Name>
+		<English_US>Electricity</English_US>
+		<Korean>전기</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BUTTON2_ENERGY_USAGE</Design_ID>
+		<String_ID>DREAM_ENERGY_USAGE_BUTTON2</String_ID>
+		<String_Name>ENERGY_TAB</String_Name>
+		<English_US>Energy usage</English_US>
+		<Korean>에너지 사용량</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_ENTRY_M_VEHICLE</Design_ID>
+		<String_ID>DREAM_ENTRY_M_VEHICLE</String_ID>
+		<String_Name>PARKING_INCOMING</String_Name>
+		<English_US>Entry</English_US>
+		<Korean>입차</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_OPT_FAVORITES_M_SMARTTHINGS_ABB</Design_ID>
+		<String_ID>DREAM_FAVORITES_M_SMARTTHINGS_OPT_ABB</String_ID>
+		<String_Name>MAINEDIT</String_Name>
+		<English_US>Favorites</English_US>
+		<Korean>즐겨찾기</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TAB_GAS_ABB</Design_ID>
+		<String_ID>DREAM_GAS_TAB_ABB</String_ID>
+		<String_Name>TAB_GAS_LINE</String_Name>
+		<English_US>Gas</English_US>
+		<Korean>가스</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_GET_NOTIFICATIONS_THAT_ARE_USEFUL_TO_YOU_OR_TURN_THEM_OFF_IF_YOU_DONT_WANT_TO_BE_INTERRUPTED</Design_ID>
+		<String_ID>DREAM_GET_NOTIFICATIONS_THAT_ARE_USEFUL_TO_YOU_OR_TURN_THEM_OFF_IF_YOU_DONT_WANT_TO_BE_INTERRUPTED</String_ID>
+		<String_Name>HELP_OPT_NOTI_DESC</String_Name>
+		<English_US>Get notifications that are useful to you, or turn them off if you don't want to be interrupted.</English_US>
+		<Korean>유용한 정보를 받아보세요. 정보를 받고 싶지 않으면 알림을 끌 수 있습니다.</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_HEAT_M_SMARTTHINGS</Design_ID>
+		<String_ID>DREAM_HEAT_M_SMARTTHINGS</String_ID>
+		<String_Name>TAB_HEATING</String_Name>
+		<English_US>Heat</English_US>
+		<Korean>열량</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_OPT_HELP</Design_ID>
+		<String_ID>DREAM_HELP_OPT</String_ID>
+		<String_Name>HELP_PAGE</String_Name>
+		<English_US>Help</English_US>
+		<Korean>도움말</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_HIGHEST_USAGE</Design_ID>
+		<String_ID>DREAM_HIGHEST_USAGE</String_ID>
+		<String_Name>ENERGYPAGE_HIGHEST_USAGE</String_Name>
+		<English_US>Highest usage</English_US>
+		<Korean>최고 사용량</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TAB_HOT_WATER_M_ENERGY_TYPE_ABB</Design_ID>
+		<String_ID>DREAM_HOT_WATER_M_ENERGY_TYPE_TAB_ABB</String_ID>
+		<String_Name>TAB_HOTWATER</String_Name>
+		<English_US>Hot water</English_US>
+		<Korean>온수</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TPOP_LOADING_ING</Design_ID>
+		<String_ID>DREAM_LOADING_ING_TPOP</String_ID>
+		<String_Name>LOADING</String_Name>
+		<English_US>Loading...</English_US>
+		<Korean>불러오는 중...</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_LOWEST_USAGE</Design_ID>
+		<String_ID>DREAM_LOWEST_USAGE</String_ID>
+		<String_Name>ENERGYPAGE_LOWEST_USAGE</String_Name>
+		<English_US>Lowest usage</English_US>
+		<Korean>최저 사용량</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_OPT_MENU_M_SMARTTHINGS</Design_ID>
+		<String_ID>DREAM_MENU_M_SMARTTHINGS_OPT</String_ID>
+		<String_Name>SERVICEMENU</String_Name>
+		<English_US>Menu</English_US>
+		<Korean>메뉴</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BUTTON2_NOTICES</Design_ID>
+		<String_ID>DREAM_NOTICES_BUTTON2</String_ID>
+		<String_Name>NOTIFICATION_TAB</String_Name>
+		<English_US>Notices</English_US>
+		<Korean>공지사항</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_HEADER_NOTICES</Design_ID>
+		<String_ID>DREAM_NOTICES_HEADER</String_ID>
+		<String_Name>ALARM_NOTIFICATION</String_Name>
+		<English_US>Notices</English_US>
+		<Korean>공지사항</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_HEADER_NOTIFICATIONS</Design_ID>
+		<String_ID>DREAM_NOTIFICATIONS_HEADER</String_ID>
+		<String_Name>ALARM</String_Name>
+		<English_US>Notifications</English_US>
+		<Korean>알림</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_NPBODY_NO_ENERGY_USAGE_DATA</Design_ID>
+		<String_ID>DREAM_NO_ENERGY_USAGE_DATA_NPBODY</String_ID>
+		<String_Name>ENERGYPAGE_NO_RECORD</String_Name>
+		<English_US>No energy usage data</English_US>
+		<Korean>에너지 사용 내역이 없어요</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_NO_NETWORK_CONNECTION_CONNECT_TO_A_NETWORK_AND_TRY_AGAIN</Design_ID>
+		<String_ID>DREAM_NO_NETWORK_CONNECTION_CONNECT_TO_A_NETWORK_AND_TRY_AGAIN</String_ID>
+		<String_Name>NETWORK_DISCONNECTION</String_Name>
+		<English_US>No network connection. Connect to a network and try again.</English_US>
+		<Korean>연결된 네트워크가 없습니다. 네트워크에 연결하고 다시 해보세요.</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_NPBODY_NO_PARKING_LOCATIONS_OR_VEHICLE_ENTRY_HISTORY</Design_ID>
+		<String_ID>DREAM_NO_PARKING_LOCATIONS_OR_VEHICLE_ENTRY_HISTORY_NPBODY</String_ID>
+		<String_Name>PARKING_NO_ITEM</String_Name>
+		<English_US>No parking locations or vehicle entry history</English_US>
+		<Korean>주차 위치 정보나 입차 기록이 없어요</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_NPBODY_NO_PARKING_LOCATION_SAVED</Design_ID>
+		<String_ID>DREAM_NO_PARKING_LOCATION_SAVED_NPBODY</String_ID>
+		<String_Name>PARKING_NO_LOCATION_RECORD</String_Name>
+		<English_US>No parking location saved</English_US>
+		<Korean>주차 위치 정보가 없어요</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_NPBODY_NO_UNDELIVERED_PACKAGES</Design_ID>
+		<String_ID>DREAM_NO_UNDELIVERED_PACKAGES_NPBODY</String_ID>
+		<String_Name>NO_UNDELIVERED</String_Name>
+		<English_US>No undelivered packages</English_US>
+		<Korean>미수령 택배가 없어요</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_NPBODY_NO_VEHICLE_ENTRY_HISTORY</Design_ID>
+		<String_ID>DREAM_NO_VEHICLE_ENTRY_HISTORY_NPBODY</String_ID>
+		<String_Name>PARKING_NO_HISTORY_RECORD</String_Name>
+		<English_US>No vehicle entry history</English_US>
+		<Korean>입차 기록이 없어요</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_SBODY_OFF</Design_ID>
+		<String_ID>DREAM_OFF_SBODY</String_ID>
+		<String_Name>ALARM_OFF</String_Name>
+		<English_US>Off</English_US>
+		<Korean>사용 안 함</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_GN_BUTTON_OK_10</Design_ID>
+		<String_ID>DREAM_OK_BUTTON10</String_ID>
+		<String_Name>OK_BUTTON</String_Name>
+		<English_US>OK</English_US>
+		<Korean>확인</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_SBODY_ON</Design_ID>
+		<String_ID>DREAM_ON_SBODY</String_ID>
+		<String_Name>ALARM_ON</String_Name>
+		<English_US>On</English_US>
+		<Korean>사용 중</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_BIX_OPT_OPEN_SOURCE_LICENSE_ABB</Design_ID>
+		<String_ID>DREAM_OPEN_SOURCE_LICENSE_OPT_ABB</String_ID>
+		<String_Name>LICENSES</String_Name>
+		<English_US>Open Source License</English_US>
+		<Korean>오픈소스 라이선스</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_OPT_OPTIONS_M_SMARTTHINGS</Design_ID>
+		<String_ID>DREAM_OPTIONS_M_SMARTTHINGS_OPT</String_ID>
+		<String_Name>HELP_OPT_TITLE</String_Name>
+		<English_US>Options</English_US>
+		<Korean>옵션</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_NPBODY_P1SS_ENTERED_AT_P2SS_M_VEHICLE</Design_ID>
+		<String_ID>DREAM_P1SS_ENTERED_AT_P2SS_M_VEHICLE_NPBODY</String_ID>
+		<String_Name>PARKING_HISTORY_BANNER</String_Name>
+		<English_US>%1$s entered at %2$s</English_US>
+		<Korean>%1$s 차량이 %2$s에 입차했습니다</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_NPBODY_P1SS_IS_IN_P2SS_M_VEHICLE</Design_ID>
+		<String_ID>DREAM_P1SS_IS_IN_P2SS_M_VEHICLE_NPBODY</String_ID>
+		<String_Name>PARKING_LOCATION_BANNER</String_Name>
+		<English_US>%1$s is in %2$s</English_US>
+		<Korean>%1$s 차량이 %2$s에 주차되어 있습니다</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_HEADER_PARKING_LOCATION</Design_ID>
+		<String_ID>DREAM_PARKING_LOCATION_HEADER</String_ID>
+		<String_Name>PARKING_LOCATION_TAB</String_Name>
+		<English_US>Parking location</English_US>
+		<Korean>주차 위치</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TMBODY_PARKING_LOCATION</Design_ID>
+		<String_ID>DREAM_PARKING_LOCATION_TMBODY</String_ID>
+		<String_Name>PARKING_LOCATION_FC_TEXT</String_Name>
+		<English_US>Parking location</English_US>
+		<Korean>주차 위치</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_HEADER_PREVIOUS_MONTH_COMPARISON</Design_ID>
+		<String_ID>DREAM_PREVIOUS_MONTH_COMPARISON_HEADER</String_ID>
+		<String_Name>ENERGYPAGE_PREVIOUS_MONTH</String_Name>
+		<English_US>Previous month comparison</English_US>
+		<Korean>전월 비교</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_PS_TODAY</Design_ID>
+		<String_ID>DREAM_PS_TODAY</String_ID>
+		<String_Name>TIME_TODAY</String_Name>
+		<English_US>%s today</English_US>
+		<Korean>오늘 %s</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_PS_YESTERDAY</Design_ID>
+		<String_ID>DREAM_PS_YESTERDAY</String_ID>
+		<String_Name>TIME_YESTERDAY</String_Name>
+		<English_US>%s yesterday</English_US>
+		<Korean>어제 %s</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_GCA_HEADER_RECENT</Design_ID>
+		<String_ID>DREAM_RECENT_HEADER</String_ID>
+		<String_Name>NOTIFICATION_RECENT</String_Name>
+		<English_US>Recent</English_US>
+		<Korean>최근</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_SEE_GENERAL_MAIL_FOOD_AND_FROZEN_DELIVERIES_FROM_THE_PAST_2_MONTHS</Design_ID>
+		<String_ID>DREAM_SEE_GENERAL_MAIL_FOOD_AND_FROZEN_DELIVERIES_FROM_THE_PAST_2_MONTHS</String_ID>
+		<String_Name>HELP_DELIVERY_DESC</String_Name>
+		<English_US>See general, mail, food, and frozen deliveries from the past 2 months.</English_US>
+		<Korean>최근 2개월 동안의 택배를 종류별(일반, 우편, 식품, 냉동 식품)로 확인해 보세요.</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_SEE_WHEN_YOUR_REGISTERED_VEHICLES_ENTERED_THE_APARTMENT_COMPLEX_DURING_THE_PAST_2_MONTHS</Design_ID>
+		<String_ID>DREAM_SEE_WHEN_YOUR_REGISTERED_VEHICLES_ENTERED_THE_APARTMENT_COMPLEX_DURING_THE_PAST_2_MONTHS</String_ID>
+		<String_Name>HELP_PARK_DESC</String_Name>
+		<English_US>See when your registered vehicles entered the apartment complex during the past 2 months.</English_US>
+		<Korean>등록된 차량이 아파트 단지에 입차한 시간을 확인해 보세요. 최근 2개월 동안의 기록을 확인할 수 있습니다.</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SAC_HEADER_TODAY</Design_ID>
+		<String_ID>DREAM_TODAY_HEADER</String_ID>
+		<String_Name>TODAY</String_Name>
+		<English_US>Today</English_US>
+		<Korean>오늘</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TAB_UNDELIVERED_M_SMARTTHINGS_ABB</Design_ID>
+		<String_ID>DREAM_UNDELIVERED_M_SMARTTHINGS_TAB_ABB</String_ID>
+		<String_Name>UNDELIVERED</String_Name>
+		<English_US>Undelivered</English_US>
+		<Korean>미수령</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_UP_TO_TODAY</Design_ID>
+		<String_ID>DREAM_UP_TO_TODAY</String_ID>
+		<String_Name>ENERGYPAGE_UP_TO_TODAY</String_Name>
+		<English_US>Up to today</English_US>
+		<Korean>오늘까지</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TMBODY_VEHICLE_ENTRIES_M_SMARTTHINGS</Design_ID>
+		<String_ID>DREAM_VEHICLE_ENTRIES_M_SMARTTHINGS_TMBODY</String_ID>
+		<String_Name>ALARM_PARKING_HISTORY</String_Name>
+		<English_US>Vehicle entries</English_US>
+		<Korean>입차 기록</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_HEADER_VEHICLE_ENTRY_HISTORY</Design_ID>
+		<String_ID>DREAM_VEHICLE_ENTRY_HISTORY_HEADER</String_ID>
+		<String_Name>PARKING_HISTORY_TAB</String_Name>
+		<English_US>Vehicle entry history</English_US>
+		<Korean>입차 기록</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BUTTON2_VEHICLE_INFORMATION</Design_ID>
+		<String_ID>DREAM_VEHICLE_INFORMATION_BUTTON2</String_ID>
+		<String_Name>PARKING_TAB</String_Name>
+		<English_US>Vehicle information</English_US>
+		<Korean>차량 정보</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_BODY_VIEW_HIDE_OR_REORDER_YOUR_FAVORITE_ITEMS_FOR_QUICK_ACCESS_ITEMS_THAT_ARE_HIDDEN_CAN_STILL_BE_FOUND_IN_THE_FULL_MENU</Design_ID>
+		<String_ID>DREAM_VIEW_HIDE_OR_REORDER_YOUR_FAVORITE_ITEMS_FOR_QUICK_ACCESS_ITEMS_THAT_ARE_HIDDEN_CAN_STILL_BE_FOUND_IN_THE_FULL_MENU</String_ID>
+		<String_Name>HELP_OPT_FAVORITE_DESC</String_Name>
+		<English_US>View, hide, or reorder your favorite items for quick access. Items that are hidden can still be found in the full menu.</English_US>
+		<Korean>편리하게 사용할 수 있도록 자주 사용하는 항목을 표시하거나 숨길 수 있고 순서를 변경할 수 있습니다. 숨긴 항목은 전체 메뉴에서 확인할 수 있습니다.</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_HEADER_VOICE_CONTROL</Design_ID>
+		<String_ID>DREAM_VOICE_CONTROL_HEADER</String_ID>
+		<String_Name>HELP_VOICE_CMD</String_Name>
+		<English_US>Voice control</English_US>
+		<Korean>음성 명령</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_TAB_WATER_M_ENERGY_TYPE_ABB</Design_ID>
+		<String_ID>DREAM_WATER_M_ENERGY_TYPE_TAB_ABB</String_ID>
+		<String_Name>TAB_WATER</String_Name>
+		<English_US>Water</English_US>
+		<Korean>수도</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SACP_HEADER_YEAR_ON_YEAR_COMPARISON</Design_ID>
+		<String_ID>DREAM_YEAR_ON_YEAR_COMPARISON_HEADER</String_ID>
+		<String_Name>COMPARE_PRV_YEAR</String_Name>
+		<English_US>Year-on-year comparison</English_US>
+		<Korean>전년 동월 비교</Korean>
+	</record>
+	<record>
+		<Design_ID>DREAM_SAC_HEADER_YESTERDAY</Design_ID>
+		<String_ID>DREAM_YESTERDAY_HEADER</String_ID>
+		<String_Name>YESTERDAY</String_Name>
+		<English_US>Yesterday</English_US>
+		<Korean>어제</Korean>
+	</record>
+	<record>
+		<Design_ID>KDS_SACP_OPT_RAEMIAN_FIRSTIGE</Design_ID>
+		<String_ID>KS_RAEMIAN_FIRSTIGE_OPT</String_ID>
+		<String_Name>APT_NAME</String_Name>
+		<English_US>Raemian Firstige</English_US>
+		<Korean>래미안퍼스티지</Korean>
+	</record>
+	<record>
+		<Design_ID>PLURAL_ONE_SACP_BODY_LAST_PD_MONTHS_ABB</Design_ID>
+		<String_ID>PLURAL_ONE_LAST_PD_MONTHS_ABB</String_ID>
+		<String_Name>LAST_MONTH</String_Name>
+		<English_US>Last %d month</English_US>
+		<Korean>N/A</Korean>
+	</record>
+	<record>
+		<Design_ID>PLURAL_ONE_SACP_BODY_PD_UNDELIVERED_PACKAGES</Design_ID>
+		<String_ID>PLURAL_ONE_PD_UNDELIVERED_PACKAGES</String_ID>
+		<String_Name>PARCELCARD_BODY_SINGLE</String_Name>
+		<English_US>%d undelivered package</English_US>
+		<Korean>N/A</Korean>
+	</record>
+	<record>
+		<Design_ID>PLURAL_ONE_SACP_HEADER_PD_UNDELIVERED_PACKAGES</Design_ID>
+		<String_ID>PLURAL_ONE_PD_UNDELIVERED_PACKAGES_HEADER</String_ID>
+		<String_Name>PARCELCARD_TITLE_SINGLE</String_Name>
+		<English_US>%d undelivered package</English_US>
+		<Korean>N/A</Korean>
+	</record>
+	<record>
+		<Design_ID>PLURAL_OTHER_SACP_BODY_LAST_PD_MONTHS_ABB</Design_ID>
+		<String_ID>PLURAL_OTHER_LAST_PD_MONTHS_ABB</String_ID>
+		<String_Name>LAST_MONTHS</String_Name>
+		<English_US>Last %d months</English_US>
+		<Korean>최근 %d개월</Korean>
+	</record>
+	<record>
+		<Design_ID>PLURAL_OTHER_SACP_BODY_PD_UNDELIVERED_PACKAGES</Design_ID>
+		<String_ID>PLURAL_OTHER_PD_UNDELIVERED_PACKAGES</String_ID>
+		<String_Name>PARCELCARD_BODY_MULTIPLE</String_Name>
+		<English_US>%d undelivered packages</English_US>
+		<Korean>미수령 택배 %d개 있습니다</Korean>
+	</record>
+	<record>
+		<Design_ID>PLURAL_OTHER_SACP_HEADER_PD_UNDELIVERED_PACKAGES</Design_ID>
+		<String_ID>PLURAL_OTHER_PD_UNDELIVERED_PACKAGES_HEADER</String_ID>
+		<String_Name>PARCELCARD_TITLE_MULTIPLE</String_Name>
+		<English_US>%d undelivered packages</English_US>
+		<Korean>미수령 택배 %d개</Korean>
+	</record>
+	<record>
+		<Design_ID>IDS_SSCHOL_BODY_NO_NOTICES</Design_ID>
+		<String_ID>SS_NO_NOTICES</String_ID>
+		<String_Name>NOTIFICATION_NO_ITEM</String_Name>
+		<English_US>No notices</English_US>
+		<Korean>공지사항이 없습니다</Korean>
+	</record>
+	<record>
+		<Design_ID>IDS_MUSIC_BUTTON_LIST</Design_ID>
+		<String_ID>TS_LIST_BUTTON</String_ID>
+		<String_Name>NOTIFICATION_LIST</String_Name>
+		<English_US>List</English_US>
+		<Korean>목록</Korean>
+	</record>
+	<record>
+		<Design_ID>IDS_SYS_BODY_CODE_GENERATION_VER</Design_ID>
+		<String_ID>HS_CODE_GENERATION_VER</String_ID>
+		<String_Name>stms_version</String_Name>
+		<English_US>20190902_0730</English_US>
+		<Korean>20190902_0730</Korean>
+	</record>
+</HOMENET_HNService>

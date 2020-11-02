@@ -1,0 +1,12 @@
+// This is for setting project of vscode. (Not for plugin)
+// refer to https://code.visualstudio.com/Docs/languages/javascript#_javascript-projects-jsconfigjson
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6"
+    },
+    "exclude": [
+      "node_modules",
+      "**/node_modules/*"
+    ]
+  }

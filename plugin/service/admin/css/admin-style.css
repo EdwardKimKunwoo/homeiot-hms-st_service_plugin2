@@ -1,0 +1,212 @@
+
+.admin_total_amount_css {
+  height:49px;
+  text-align: center;
+}
+
+.admin_total_header_text_css {
+  font-size: 26px;
+  font-family: roboto-regular;
+  line-height: 33px;
+  color: #252525;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.admin_total_header_text_value_css {
+  font-weight: bold;
+}
+
+.admin_total_amount_text_css{
+  font-size: 42px;
+  font-family: roboto-regular;
+  font-weight: bold;
+  line-height: 49px;
+  color: #252525;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.admin_total_amount_currency_text_css {
+  line-height: 49px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  font-family: roboto-regular;
+  color: #252525;
+  vertical-align: -webkit-baseline-middle;
+  display: inline-block;
+}
+
+.admin_card_body_css {
+  margin: 0px 12px 0px 12px;
+}
+
+.admin_card_box_css {
+  min-height: 67px;
+  height:auto;
+  padding: 0px 12px 0px 12px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  float: left;
+  width: -webkit-fill-available;
+  margin-bottom: 6px;
+}
+
+.admin_card_box_left_css {
+  float:left;
+  padding: 12px 0px 12px 0px;
+  height: 43px;
+  line-height: 43px;
+}
+
+.admin_card_box_left_img_css {
+  padding-top:2px;
+  width: 40px;
+  height: 40px;
+}
+
+.admin_card_box_detail_css {
+  max-width: calc(100% - 40px - 85px - 24px);
+  float:left;
+  padding: 12px 8px 12px 0px;
+}
+
+.admin_card_box_detail_title_css {
+  text-align: left;
+}
+
+.admin_card_box_detail_amount_css{
+  font-size: 20px;
+  font-family: roboto-regular;
+  font-weight: bold;
+  text-align: left;
+}
+
+.admin_card_box_variation_css {
+  float:right;
+  padding: 12px 12px 12px 8px;
+  line-height: 43px;
+}
+
+.admin_card_box_variation_arrow_css {
+  width: 12px;
+  height: 12px;
+  padding-right: 4px;
+}
+
+.admin_card_box_variation_sign_css {
+  width: 12px;
+  height: 12px;
+}
+
+.admin_card_box_variation_value_css {
+    font-size: 15px;
+}
+
+.admin_total_sub_css {
+  font-size: 15px;
+  font-family: roboto-regular;
+  color: #8f8f8f;
+  text-align: center;
+}
+
+.admin_total_amount_sub_text_css {
+
+}
+
+.admin_date_css {
+  font-size: 25px;
+  line-height: 25px;
+  height: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 18px;
+  width: fit-content;
+  margin: auto;
+}
+
+.admin_year_text_css {
+  vertical-align: middle;
+  font-size: 22px;
+  line-height: 25px;
+  font-family: roboto-regular;
+  color: #252525;
+  float:left;
+}
+
+.admin_month_text_css {
+  vertical-align: middle;
+  font-size: 22px;
+  line-height: 25px;
+  font-family: roboto-regular;
+  font-weight: bold;
+  color: var(--brand-color);
+  float:left;
+}
+
+.admin_page_due_date_css{
+  font-size: 15px;
+  line-height: 18px;
+  font-family: roboto-regular;
+  color: #505050;
+}
+
+.admin_page_compare_summary_text_css {
+  font-size: 15px;
+  line-height: 18px;
+  color: #858585;
+  font-family: roboto-regular;
+}
+
+.admin_divider {
+  display:inline-block;
+  height:10px;
+  border:1px solid #252525;
+  opacity:0.3;
+  line-height: 18px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.admin_chartWrapper {
+  position: relative;
+}
+
+.admin_chartWrapper>canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.admin_chartAreaWrapper {
+  overflow-x: overlay;
+  overflow-y: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.admin_chart_animation {
+  -webkit-animation-name: chart_move;
+  -webkit-animation-duration: 0.3s;
+  -webkit-animation-iteration-count: 1;
+/*  -webkit-animation-direction: right; */
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes chart_move {
+  0% {
+    left : calc(100%);
+  }
+  100% {
+    left: calc(0%);
+  }
+}
+
+.admin_chartAreaWrapper2 {
+  position: relative;
+  height: 200px;
+  overflow-x: overlay;
+  overflow-y: hidden;
+}

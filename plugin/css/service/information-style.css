@@ -1,0 +1,68 @@
+/* information */
+
+#infoServiceName {
+  /* height: 41px; */
+  line-height: 41px;
+  width: auto;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-bottom: 13px;
+  text-align: -webkit-center;
+  font-size: 34px;
+  color: #252525;
+  font-family: roboto-regular;
+
+}
+
+#infoVersion {
+  height: 22px;
+  width: auto;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-bottom: 19px;
+  text-align: -webkit-center;
+  font-size: 16px;
+  color: #909090;
+  font-family: roboto-regular;
+}
+
+.info_open_box {
+  height: 36px;
+  width: 220px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  vertical-align: text-bottom;
+  background: #EBEBEB;
+  border-radius: 18px;
+  position: relative;
+  overflow: hidden;
+}
+
+.info_open_box_text {
+  text-align: -webkit-center;
+  display:-webkit-inline-box;
+  margin-right: 18px;
+  margin-left: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #252525;
+  font-family: roboto-regular;
+}
+
+.infoOpenBox {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height: 19px;
+  width: 216px;
+  padding: 12.5px 16px 12.5px 16px;
+  color: #252525;
+  background: #EBEBEB;
+  border-radius: 18px;
+  font-family: roboto-regular;
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  overflow: hidden;
+}

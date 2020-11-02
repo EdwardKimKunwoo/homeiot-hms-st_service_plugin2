@@ -1,0 +1,5 @@
+{
+  "name": "service_plugin_reference",
+  "type": "service",
+  "outputPath": "out"
+}

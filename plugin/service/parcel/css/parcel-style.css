@@ -1,0 +1,408 @@
+/* Favorite card page */
+.parcel_boxes_favorite_title_divider {
+  color: #252525;
+  opacity: 0.3;
+}
+
+.parcel_boxes_favorite_list_div {
+  overflow: hidden;
+  height: 43px;
+  vertical-align: middle;
+  background-color: #F2F2F2;
+  text-align: left;
+  padding: 12px 12px 12px 6px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+}
+
+.parcel_boxes_favorite_list_div_category_img_left {
+  position:absolute;
+  height: 40px;
+  width: 40px;
+}
+
+.parcel_boxes_list_img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  /* margin-top: 6px;
+  margin-bottom: 15px;
+  margin-left: 6px;
+  margin-right: 6px;
+  vertical-align: middle; */
+}
+
+.parcel_boxes_favorite_list_top_div {
+  position:relative;
+  float: right;
+  width: calc(100% - 46px);
+  height: 18px;
+  margin-bottom: 1px;
+}
+
+.parcel_boxes_favorite_list_top_div_text_left {
+  align-items: center;
+  vertical-align: middle;
+  float: left;
+  text-align: left;
+  font-size: 15px;
+  color: #505050;
+  font-family: roboto-regular;
+  font-weight: 400;
+  margin-bottom: 1px;
+}
+
+.parcel_boxes_favorite_list_top_div_text_right {
+  align-items: center;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 15px;
+  color: #8F8F8F;
+  font-family: roboto-regular;
+  font-weight: 400;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.parcel_boxes_favorite_list_bottom_div {
+  position:relative;
+  float: right;
+  width: calc(100% - 46px);
+  height: 24px;
+}
+
+.parcel_boxes_favorite_list_bottom_div_text_left {
+  align-items: center;
+  vertical-align: middle;
+  height: 24px;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  color: var(--brand-color);
+  font-family: roboto-regular;
+  font-weight: bold;
+}
+
+.parcel_boxes_favorite_list_bottom_div_text_left_extra {
+  vertical-align: middle;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  color: #252525;
+  font-family: roboto-regular;
+  font-weight: 600;
+}
+
+
+/* Detailed page */
+
+
+.parcel_page_detailed_style {
+  background-color: #F2F2F2;
+  position: absolute;
+  display: none;
+  width: -webkit-fill-available;
+  height: calc(100% - 48px);
+  }
+
+/* Detailed page (page banner) */
+
+.parcelPageTitle_style {
+  position: sticky;
+  position:-webkit-sticky;
+  top:0px;
+  width:100%;
+  z-index:1;
+  background-color:#f2f2f2;
+  /* background-color:#858585 */
+}
+
+.parcelPageTab_style {
+  position: sticky;
+  position:-webkit-sticky;
+  top: 0px;
+  /* top:186px; */
+  width:100%;
+  z-index:1;
+  background-color:#f2f2f2;
+}
+
+.parcel_boxes_detail_page_header  {
+  width: 211px;
+  word-break: keep-all;
+  height: auto;
+  padding-top: 58px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 48px;
+  text-align: -webkit-center;
+  font-size: 30px;
+  color: #252525;
+  font-family: roboto-regular;
+  position: relative;
+}
+
+/* Detailed page (Style tab links ) */
+.parcel_boxes_detail_page_tablink_left {
+  overflow: hidden;
+  /* height: 32px; */
+  background-color: #f2f2f2;
+  float: left;
+  text-align: center;
+  padding: 6px 12px 6px 12px;
+  font-size: 15px;
+  width: calc(50% - 40px);
+  margin: 12px 0px 12px 16px;
+  opacity: 0.8;
+}
+
+.parcel_boxes_detail_page_tablink_right {
+  overflow: hidden;
+  /* height: 32px; */
+  background-color: #f2f2f2;
+  float: left;
+  text-align: center;
+  padding: 6px 12px 6px 12px;
+  font-size: 15px;
+  width: calc(50% - 40px);
+  margin: 12px 16px 12px 0px;
+  opacity: 0.8;
+}
+
+/* Detailed page (Style the tab content) */
+.parcel_boxes_detail_page_tabcontent {
+  background-color:#F2F2F2;
+  color: black;
+  display: none;
+  position: absolute;
+  width: -webkit-fill-available;
+  height: calc(100% - 57.5px);
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+
+.parcel_boxes_detail_page_list_group_date_header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px; /* 16px + 12px */
+  margin-right: 17px; /* 5px + 12px */
+}
+
+.parcel_boxes_detail_page_list_group_date_header_text {
+  position: relative;
+  flex: none;
+  font-family: roboto-regular;
+  font-weight: bold;
+  font-size: 14px;
+  color: #858585;
+  -webkit-padding-end: 6px;
+  padding-inline-end: 6px;
+  max-width: calc(100% - 46px);
+}
+
+.parcel_boxes_detail_page_list_group_date_header_divider {
+  position: relative;
+  height: 1px;
+  flex: auto;
+  background: #d4d4d4;
+  min-width: 46px;
+  /* border: 1px dashed #d4d4d4; */
+}
+
+.parcel_boxes_detail_page_list_divider_area {
+  background-color:white;
+}
+
+
+.parcel_boxes_detail_page_list_divider {
+  display:block;
+  border-top: 1px solid #e6e6e6;
+  margin-left: 64px; /* 64 = 16 + 40 + 8 */
+  margin-right: 16px; /* 16px */
+}
+
+.parcel_boxes_detail_page_list_div {
+  /* border: 1px solid black; */
+  position: relative;
+  height: 43px;
+  vertical-align: middle;
+  background-color:white;
+  text-align: left;
+  margin-right: 12px;
+  margin-left: 12px;
+  padding: 12px 12px 12px 12px;
+  border-radius: 8px;
+}
+
+.parcel_boxes_detail_page_list_div_category_img_left {
+  position:absolute;
+  height: 40px;
+  width: 40px;
+}
+
+.parcel_boxes_detail_page_list_div_top {
+  /* border: 1px solid black; */
+  position: relative;
+  height: 43px;
+  vertical-align: middle;
+  background-color:white;
+  text-align: left;
+  padding: 12px 18px 12px 12px;
+  margin-right: 12px;
+  margin-left: 12px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px
+}
+
+.parcel_boxes_detail_page_list_div_bottom {
+  /* border: 1px solid black; */
+  position: relative;
+  height: 43px;
+  vertical-align: middle;
+  background-color:white;
+  text-align: left;
+  padding: 12px 18px 12px 12px;
+  margin-right: 12px;
+  margin-left: 12px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px
+}
+
+.parcel_boxes_detail_page_list_div_no_radius {
+  /* border: 1px solid black; */
+  position: relative;
+  height: 43px;
+  vertical-align: middle;
+  background-color:white;
+  text-align: left;
+  padding: 12px 18px 12px 12px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.parcel_boxes_detail_page_list_top_div {
+  position:relative;
+  float: right;
+  width: calc(100% - 46px);
+  height: 18px;
+  margin-bottom: 1px;
+}
+
+.parcel_boxes_detail_page_list_top_div_text_left {
+  align-items: center;
+  vertical-align: middle;
+  float: left;
+  text-align: left;
+  font-size: 15px;
+  color: #505050;
+  font-family: roboto-regular;
+  font-weight: 400;
+  margin-bottom: 1px;
+}
+
+.parcel_boxes_detail_page_list_top_div_text_right {
+  align-items: center;
+  vertical-align: middle;
+  float: right;
+  text-align: right;
+  font-size: 15px;
+  color: #8F8F8F;
+  font-family: roboto-regular;
+  font-weight: 400;
+  margin-bottom: 1px;
+}
+
+.parcel_boxes_detail_page_list_bottom_div {
+  position:relative;
+  float: right;
+  width: calc(100% - 46px);
+  height: 24px;
+}
+
+.parcel_boxes_detail_page_list_bottom_div_text_left {
+  align-items: center;
+  vertical-align: middle;
+  height: 24px;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  color: #252525;
+  font-family: roboto-regular;
+  font-weight: 600;
+}
+
+.parcel_boxes_detail_page_list_bottom_div_text_left_extra {
+  vertical-align: middle;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  color: #252525;
+  font-family: roboto-regular;
+  font-weight: 600;
+}
+
+.parcel_boxes_detail_page_list_bottom {
+  height: 6px;
+}
+
+/* Detailed page (no item) */
+.parcel_noitem {
+  width: 100%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.parcel_noitem_circle {
+  margin: auto;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  border-radius: 50%;
+  text-align: -webkit-center;
+  background: #d8d8d8;
+}
+
+.parcel_noitem_circle > img {
+  width: 40px;
+  height: 40px;
+  color: #252525;
+  vertical-align:middle;
+}
+
+.parcel_noitem_text {
+  /*width: 100%;*/
+  text-align: center;
+  color: #333333;
+  opacity: 0.64;
+  font-family: roboto-regular;
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+/* Detailed page (loading img) Container */
+.parcel_boxes_detail_page_loading_container {
+  height:30px;
+}
+
+/* Detailed page (loading img) */
+.parcel_boxes_detail_page_loading {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+  height:24px;
+  /* background-color: #fcfcfc; */
+}
+
+.parcel_boxes_detail_page_loading .img {
+  width: 24px;
+  height: 24px;
+  animation: rotation 1s linear infinite;
+}

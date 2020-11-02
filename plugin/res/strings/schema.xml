@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<HOMENET_HNService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <record>
+       <Design_ID>DREAM_SACP_OPT_ABOUT_PS</Design_ID>
+       <String_ID>DREAM_ABOUT_PS_OPT</String_ID>
+       <String_Name>PLUGIN_INFO</String_Name>
+       <English_US>About %s</English_US>
+	   <Korean>%s 정보</Korean>
+    </record>
+    <record>
+       <Design_ID>DREAM_SACP_OPT_ABOUT_PS</Design_ID>
+       <String_ID>DREAM_ABOUT_PS_OPT</String_ID>
+       <String_Name>PLUGIN_INFO</String_Name>
+       <English_US>About %s</English_US>
+	   <Korean>%s 정보</Korean>
+    </record>	
+</HOMENET_HNService>

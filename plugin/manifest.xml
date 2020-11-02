@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <manifest xmlns="http://samsung.com/ns/plugin"
+      manifestVersionCode="0"
+      package="com.sds.plugin.homenet.service"
+      versionCode="7"
+      versionName="1.1.5"
+      minPluginSdkVersion="1.1.0">
+
+    <plugin label="default.plugin" icon="icon.png" >
+       <device type="none"
+         subType="none"
+         manufacturer="Samsung Electronics Home IoT CE"
+         manufacturerID="0AVN" />
+    </plugin>
+    <privilegeLevel level="public"/>
+    <allowedURL URL="https://service.homeiottf.com/*"/>
+    <allowedURL URL="https://www.radiantmediaplayer.com/*"/>
+    <allowedURL URL="https://upload.wikimedia.org/*"/>
+    <allowedURL URL="https://ce.homeiottf.com/*"/>
+    <allowedURL URL="https://ce.homeiotcloud.net/*"/>
+    <allowedURL URL="http://211.174.212.202:10001/*"/>
+    <allowedURL URL="https://svc-dev.samsung-ihp.com/*"/>
+    <allowedURL URL="https://shome-api-stg.samsung-ihp.com/*"/>
+    <allowedURL URL="https://shome-api.samsung-ihp.com/*"/>
+  </manifest>

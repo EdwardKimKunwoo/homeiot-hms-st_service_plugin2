@@ -1,0 +1,274 @@
+/* favorite card */
+.parking_card_box {
+  position: relative;
+  overflow: hidden;
+  height: 67px;
+  vertical-align: middle;
+  background-color: #F2F2F2;
+  text-align: left;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  border: 1px solid #F2F2F2;
+}
+
+.parking_card_simple_img, .parking_card_complex_img img, .parking_card_complex_img_bg_mask {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  margin-left: 6px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.parking_card_complex_img {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  position: relative;
+}
+
+.parking_card_complex_img_bg_mask {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  position: absolute;
+  background-color: white;
+  /* -webkit-mask-image: url('../res/img/parking_ic_status_parking_bonnet.png'); */
+  -webkit-mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAAAXNSR0IArs4c6QAAA0hJREFUeAHt2T1rFFEUxvF7ZmcFFYWFxBRJtBCsRRAV1LiFnYuVhTZ+Ci1F/BZWYmVhZUwnGDEWWvhSW0USi7CBFL5A3J053qtdAiEzO3vu7OQfSJFk773n+T2zy87GOb4QQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQACBSRKQmMPqLW0tv1q74Vx+1YnMOKdJzHmqO1typ7rhXPK2e31+SZ5LVt3exXaKVvDK1PqZQTZ8quouFht5sh4t4t63W+ndK5tzX2NMHqXgUO6fLPvkr/KjMUKbnyny61CrdS5GyeYvifpQk0GWPTkw5YaryV/IIXPIbn1xmT+D33S+9TLVReugdTgvEel1t04tWc5ifkX5chcsA9bprFz1mvU85gX/f7dsHbMm5/27U7CdxbxgcdqyjVif02JkNy+4PtwHYxIKbnjPFNzwgs1vk1S18JnLnbWeuvxFnboQl9zsbs2/LDqTiGjRNaM83vwZHAIW/9Z8lJDjWOtj5MVz2JYbcqfjCL/XnsvT62d1OJzd6zE7/+af8+ed6XW/c4LdP4eZXndWC00lafq925/7snu38f3GvGBf7n3/D4bbhSL5BXX70lwfFJ5pOHzm19wpvG6EBeYv0SPMytISAhRcAm2SllDwJLVVYlbzgv1d0naJORuxJEZ284L9gauNaKtEiBjZ7Qtup4vi7O8HS/RR6ZKQOfHZK910H5uZF7zQn/3s7yEf72O2Rj0kZA7ZrUOZFxwCJunhe/6K/mgdNtZ5IWvIHOP8KAV3+yd+Hj998pIk8siHbvKbru2QMWQNmWMUXPiD/6qHfDfVPzbQ3xdcrjO5SpQLrupMif+c2iWy0ZYjHy5vTv+oen/2QwABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBGot8Bf44bhB79MrgQAAAABJRU5ErkJggg==');
+  -webkit-mask-size: 40px 40px;
+}
+
+.parking_card_upper_row {
+  display: flow-root;
+  margin-right: 12px;
+  vertical-align: middle;
+  height: 18px;
+  margin-top: 12px;
+  margin-bottom: 1px;
+}
+
+.parking_card_upper_text {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 15px;
+  color: #28527A;
+  opacity: 1;
+  font-family: roboto-regular;
+  font-weight: 400;
+}
+
+.parking_card_below_row {
+  display: flow-root;
+  margin-right: 12px;
+  vertical-align: middle;
+  clear: right;
+  height: 24px;
+  margin-bottom: 12px;
+}
+
+.parking_card_below_text {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  color: var(--brand-color);
+  font-family: roboto-regular;
+  font-weight: 600;
+}
+
+.parking_card_swiper {
+  position: static;
+  height: 21px;
+  margin-top: 6px;
+}
+
+.parking_page_detailed_style {
+  background-color: #F2F2F2;
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: calc(100% - 56px);
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+
+.parking_page_header {
+  width: auto;
+  height: auto;
+  margin-top: 58px;
+  margin-bottom: 48px;
+  margin-left: 28px;
+  margin-right: 28px;
+  vertical-align: middle;
+  text-align: -webkit-center;
+  color: #252525;
+  font-family: roboto-regular;
+}
+
+.parking_page_header_text {
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: middle;
+  text-align: -webkit-center;
+  font-size: 30px;
+  color: #252525;
+  font-family: roboto-regular;
+  line-height: 35px;
+}
+
+.parking_page_list {
+  display: inline-block;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: -webkit-fill-available;
+}
+
+.parking_page_noitem {
+  width: 100%;
+  vertical-align: middle;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.parking_page_noitem_card {
+  display: inline-block;
+  width: 100%;
+  height: 164px;
+}
+
+.parking_page_noitem_box {
+  width: 100%;
+  height: 92px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.parking_page_noitem_circle {
+  margin: auto;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  border-radius: 50%;
+  text-align: -webkit-center;
+  background: #d8d8d8;
+}
+
+.parking_page_noitem_circle > img {
+  width: 40px;
+  height: 40px;
+  color: #252525;
+  vertical-align:middle;
+}
+
+.parking_page_noitem_text {
+  text-align: center;
+  color: #333333;
+  opacity: 0.64;
+  font-family: roboto-regular;
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.parking_page_popup_mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  display: none;
+  background: rgba(128, 128, 128, 0.9);
+}
+
+.parking_page_popup_window {
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  width: 97%;
+  height: 232px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.parking_page_popup_grid {
+  position: relative;
+  overflow: hidden;
+  padding: 0px 24px 32px 24px;
+  height: 144px;
+}
+
+.parking_page_popup_content {
+  position: relative;
+  float: left;
+  height: 48px;
+  padding-top: 24px;
+}
+
+.parking_page_popup_content img{
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #D4D4D4;
+  width: 46px;
+  height: 46px;
+}
+
+.parking_page_popup_bg_mask {
+  position: absolute;
+  background-color: white;
+  /* -webkit-mask-image: url('../res/img/parking_ic_status_parking_bonnet.png'); */
+  -webkit-mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAAAXNSR0IArs4c6QAAA0hJREFUeAHt2T1rFFEUxvF7ZmcFFYWFxBRJtBCsRRAV1LiFnYuVhTZ+Ci1F/BZWYmVhZUwnGDEWWvhSW0USi7CBFL5A3J053qtdAiEzO3vu7OQfSJFk773n+T2zy87GOb4QQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQACBSRKQmMPqLW0tv1q74Vx+1YnMOKdJzHmqO1typ7rhXPK2e31+SZ5LVt3exXaKVvDK1PqZQTZ8quouFht5sh4t4t63W+ndK5tzX2NMHqXgUO6fLPvkr/KjMUKbnyny61CrdS5GyeYvifpQk0GWPTkw5YaryV/IIXPIbn1xmT+D33S+9TLVReugdTgvEel1t04tWc5ifkX5chcsA9bprFz1mvU85gX/f7dsHbMm5/27U7CdxbxgcdqyjVif02JkNy+4PtwHYxIKbnjPFNzwgs1vk1S18JnLnbWeuvxFnboQl9zsbs2/LDqTiGjRNaM83vwZHAIW/9Z8lJDjWOtj5MVz2JYbcqfjCL/XnsvT62d1OJzd6zE7/+af8+ed6XW/c4LdP4eZXndWC00lafq925/7snu38f3GvGBf7n3/D4bbhSL5BXX70lwfFJ5pOHzm19wpvG6EBeYv0SPMytISAhRcAm2SllDwJLVVYlbzgv1d0naJORuxJEZ284L9gauNaKtEiBjZ7Qtup4vi7O8HS/RR6ZKQOfHZK910H5uZF7zQn/3s7yEf72O2Rj0kZA7ZrUOZFxwCJunhe/6K/mgdNtZ5IWvIHOP8KAV3+yd+Hj998pIk8siHbvKbru2QMWQNmWMUXPiD/6qHfDfVPzbQ3xdcrjO5SpQLrupMif+c2iWy0ZYjHy5vTv+oen/2QwABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBGot8Bf44bhB79MrgQAAAABJRU5ErkJggg==');
+  -webkit-mask-size: 48px 48px;
+  -webkit-mask-repeat: no-repeat;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+  margin-top: 12px;
+}
+
+.parking_page_popup_button {
+  width: 100%;
+  height: 56px;
+  justify-items: stretch;
+}
+
+.parking_page_popup_button_cancel {
+  float: left;
+  font-weight: bold;
+  font-size: 16px;
+  color: #579DFF;
+  width: calc((100% - 2px) / 2 - 24px);
+  height: 36px;
+  line-height: 36px;
+  margin: 0px 0px 20px 24px;
+  border-radius: 26px;
+}
+
+.parking_page_popup_button_middle {
+  float: left;
+  border-left: 0.5px solid #D1D1D1;
+  border-right: 0.5px solid #D1D1D1;
+  background-color: #D1D1D1;
+  height: 16px;
+  width: 0%;
+}
+
+.parking_page_popup_button_select {
+  float: left;
+  font-weight: bold;
+  font-size: 16px;
+  color: #579DFF;
+  width: calc((100% - 2px) / 2 - 24px);
+  height: 36px;
+  line-height: 36px;
+  margin: 0px 24px 20px 0px;
+  border-radius: 26px;
+}

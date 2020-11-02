@@ -1,0 +1,15 @@
+
+.sortable_style {
+  margin: 0px;
+  padding: 0px;
+}
+
+#edit_page_sortableDiv {
+  vertical-align: middle;
+  font-family: roboto-regular;
+  font-size: 17px;
+  color: #252525;
+}
+
+.edit_page_servicecards {
+}

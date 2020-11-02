@@ -1,0 +1,44 @@
+.energycard_header_text_css_for_tv {
+  margin: 60px 0px 64px 0px;
+  text-align: center;
+  font-size: 33px;
+  line-height: 40px;
+  font-family: roboto-regular;
+  font-weight: bold;
+}
+
+.energycard_header_brand_text_for_tv {
+  color: var(--brand-color);
+}
+
+.energycard_chart_summary_text_css_for_tv{
+  margin: 46px 0px 74px 0px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 28px;
+  color: #505050;
+  font-family: roboto-regular;
+  font-weight: bold;
+}
+
+.energycard_chart_sublabel_for_tv{
+  height: 20px;
+  margin: 12px 4px 32px 4px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  color: #505050;
+  font-family: roboto-regular;
+
+}
+
+.energycard_chart_sublabel_text_for_tv{
+  width: 83px;
+  margin: 0px 4px 0px 4px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: roboto-regular;
+
+  float:left;
+}

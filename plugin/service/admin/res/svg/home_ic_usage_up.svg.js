@@ -1,0 +1,11 @@
+document.loadedSVG.home_ic_usage_up = "\
+<svg width='12px' height='12px' viewBox='0 0 12 12' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>\
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->\
+    <title></title>\
+    <desc>Created with Sketch.</desc>\
+    <g id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'>\
+        <g id='home/ic/usage/up' fill='#ED6565'>\
+            <polygon id='Fill-1-Copy' transform='translate(6.000000, 6.000000) rotate(-270.000000) translate(-6.000000, -6.000000) ' points='8.5 2.5 3.5 6.0002178 8.5 9.5'></polygon>\
+        </g>\
+    </g>\
+</svg>";

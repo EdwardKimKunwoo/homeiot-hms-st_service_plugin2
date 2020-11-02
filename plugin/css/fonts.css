@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* It doesn't work
+:lang(en).roboto-light {
+  font-family: 'Roboto', -apple-system, 'Segoe UI' , Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}*/
+
+:lang(en).roboto-regular {
+  font-family: 'Roboto', -apple-system, 'Segoe UI' , Helvetica, Arial, sans-serif;
+}
+/* It doesn't work
+:lang(en).roboto-medium {
+    font-family: 'Roboto', -apple-system, 'Segoe UI' , Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}*/
+
+/* It doesn't work
+:lang(ko).roboto-light {
+    font-family: 'sec-roboto-light', -apple-system, 'Segoe UI' , Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}*/
+
+:lang(ko).roboto-regular {
+    font-family: 'sec-roboto-light', -apple-system, 'Segoe UI' , Helvetica, Arial, sans-serif;
+}
+
+/* It doesn't work
+:lang(ko).roboto-medium {
+    font-family: 'sec-roboto-light', -apple-system, 'Segoe UI' , Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}*/

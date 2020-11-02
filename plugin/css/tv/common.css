@@ -1,0 +1,49 @@
+.tv_title_text_css {
+  margin-top:30px;
+  text-align: left;
+  font-size: 52px;
+  color: #FFFFFF;
+  float: left;
+  font-family: roboto-regular;
+}
+
+.tv_title_image_css {
+  margin-top:30px;
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+.tv_servicecard_title_css{
+  margin: 14px 20px 0px 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #252525;
+  float: left;
+  font-family: roboto-regular;
+  font-weight: bold;
+}
+
+.tv_servicecard_item_css{
+}
+
+.tv_servicecard_item_top_css{
+}
+
+.tv_servicecard_parcel_item_image_css{
+}
+
+.tv_servicecard_parking_item_image_css{
+}
+
+.tv_servicecard_item_title_css{
+}
+
+.tv_servicecard_item_date_css{
+}
+
+.tv_servicecard_item_data_css{
+}
+
+.tv_servicecard_item_sub_data_css{
+}

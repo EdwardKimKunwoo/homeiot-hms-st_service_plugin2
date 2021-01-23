@@ -12,10 +12,10 @@ This software is the confidential and proprietary information of SAMSUNG ELECTRO
 
 /** plugin version 
  * @constant {string} */
-const VERSION = "1.1.5";
+const VERSION = "1.1.5.1";
 /** release date
  * @constant {string} */
-const RELEASE_DATE = "2020.10.27.";
+const RELEASE_DATE = "2021.01.30";
 const CODE = "01";
 const PACKAGE = "HAS";
 /** API type
@@ -37,7 +37,7 @@ const API_TYPE = "SAMSUNG";
  * // server operation
  * const OPERATION_MODE = 1
  * @constant {number} */
-const OPERATION_MODE = 0;
+const OPERATION_MODE = 1;
 /** stand alone
  *  
  * Usage of OPERATION_MODE and STAND_ALONE
@@ -74,7 +74,7 @@ var API_VERSION = "v0.2";
  * @var {string} numOfItemForFakeData
  */
 
-const UPDATE_AGREEMENT_ENABLE = false;
+const UPDATE_AGREEMENT_ENABLE = true;
 var numOfItemForFakeData = "max"; /* 0, 1, 2, 3, max */
 /** current language, use it when you need to know what the current language is
  * 

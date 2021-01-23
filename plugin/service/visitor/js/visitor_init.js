@@ -16,7 +16,7 @@ This software is the confidential and proprietary information of SAMSUNG ELECTRO
 const VISITOR_ITEM_NUM_PER_SWIPE = 3;
 /** The number of item in a favorite card
  * @constant {number} */
-const VISITOR_MAX_ITEM_NUM_IN_FAVORITE_PAGE = 9;
+const VISITOR_MAX_ITEM_NUM_IN_FAVORITE_PAGE = 30;
 
 /**
  * Create a VisitorService.

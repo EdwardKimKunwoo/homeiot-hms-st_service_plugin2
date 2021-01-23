@@ -109,7 +109,7 @@ var aptBrandInfoList = {
         gradation_top_color: "#45BCAF",
         gradation_middle_color: "#60D0B8",
         gradation_bottom_color: "#E4EFEF",
-        apt_info: ((lang === "ko") ? "래미안 리더스원" : "Raemian LeadersOne"),
+        apt_info: ((lang === "ko") ? "래미안" : "Raemian"),
     },        
 };
 

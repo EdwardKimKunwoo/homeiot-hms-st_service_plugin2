@@ -623,11 +623,11 @@ var fakeLegalInformationSetting = {
     data: {
         service_title: "삼성아파트",
         tnc: {
-            eula: "1.0.0",
+            eula: "1.0.1",
             lock_smith: "1.0.0"
         },
         tppa: {
-            eula: "1.0.0",
+            eula: "1.0.1",
             lock_smith: "1.0.0"
         }
     }

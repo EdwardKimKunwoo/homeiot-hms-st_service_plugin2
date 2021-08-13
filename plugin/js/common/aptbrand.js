@@ -18,7 +18,7 @@ var aptBrandInfoList = {
         gradation_top_color: "#45BCAF",
         gradation_middle_color: "#60D0B8",
         gradation_bottom_color: "#E4EFEF",
-        apt_info: ((lang === "ko") ? "래미안퍼스티지" : "Raemian Firstige"),
+        apt_info: ((lang === "ko") ? "래미안" : "Raemian"),
     },
     POSCO: {
         brand_color: "#718CC7",
@@ -84,11 +84,25 @@ var aptBrandInfoList = {
         apt_info: "LAND me",
     },
     IAAN: {
-        brand_color: "#20B500",
-        gradation_top_color: "#7AD168",
-        gradation_middle_color: "#BFE2B8",
-        gradation_bottom_color: "#E8EBE7",
+        brand_color: "#3695DD",
+        gradation_top_color: "#3695DD",
+        gradation_middle_color: "#3695DD",
+        gradation_bottom_color: "#3695DD",
         apt_info: ((lang === "ko") ? "이안" : "iaan"),
+    },
+    BOMZAK: {
+        brand_color: "#696B71",
+        gradation_top_color: "#696B71",
+        gradation_middle_color: "#696B71",
+        gradation_bottom_color: "#696B71",
+        apt_info: ((lang === "ko") ? "봄작 시티" : "BOMZAK City"),
+    },
+    PENTHILL: {
+        brand_color: "#3B5043",
+        gradation_top_color: "#3B5043",
+        gradation_middle_color: "#3B5043",
+        gradation_bottom_color: "#3B5043",
+        apt_info: ((lang === "ko") ? "펜트힐" : "PENTHILL"),
     },
     LUXNINE: {
         brand_color: "#691863",
@@ -119,7 +133,7 @@ function setAptBrand(name) {
     // set brand info
     let aptBrandInfo = aptBrandInfoList[name.toUpperCase()];
     if (!aptBrandInfo) {
-        aptBrandInfo = aptBrandInfoList[SMARTTHINGS.toUpperCase()];
+        aptBrandInfo = aptBrandInfoList[RAEMIAN.toUpperCase()];
     }
 
     // set css variables

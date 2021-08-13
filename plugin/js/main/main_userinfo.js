@@ -49,6 +49,7 @@ function parseUserInfoData(response) {
         let buildStr = $.lang[lang].BUILDING_NO_UNIT.replace("%1$d", response.data.building_no);
         userInfoObject.userInfoTitle = buildStr.replace("%2$d", response.data.unit);
         userInfoObject.loaded = true;
+        setAptBrand(response.data.brandName);
         scplugin.manager.setPluginData(pluginService.serviceHandle, userInfoDataKey, userInfoObject.userInfoTitle);
     }
 }

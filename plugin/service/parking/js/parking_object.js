@@ -36,6 +36,8 @@ var parkingObject = {
   request_index:1,
   next_page_loading: false,
   subServiceName:"undefined",
+  parking_service_available: false,
+  entry_service_available: false,
   colorList: [
     '#D18C8D',  // red
     '#ECCF9C',  // yellow

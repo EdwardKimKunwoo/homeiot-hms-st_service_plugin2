@@ -116,13 +116,14 @@ ParkingService.prototype = {
     for (let i = 0; i < this.cardInfo.numServiceCard; i++) {
       if (this.cardInfo.list[i].cardID === SERVICEID_PARKING_HISTORY) {
         initParkingHistoryCard(index + i, this.cardInfo.list[i]);
+        parkingObject.entry_service_available = true;
       }
       if (this.cardInfo.list[i].cardID === SERVICEID_PARKING_LOCATION) {
         initParkingLocationCard(index + i, this.cardInfo.list[i]);
+        parkingObject.parking_service_available = true;
       }
     }
   },
-
 
   /** Initiate page. */
   initPage: function() {
@@ -197,7 +198,7 @@ ParkingService.prototype = {
 		list:[
       {
         service_id: SERVICEID_PARKING_LOCATION,
-        imageUri: (lang === "ko") ? parkingImageUri + "help_info_img_location2.png" : parkingImageUri + "help_info_img_location2_eng.png",
+        imageUri: (lang === "ko") ? parkingImageUri + "help_info_img_location.png2" : parkingImageUri + "help_info_img_location_eng2.png",
         imageSize: { width:"100%", height:"auto" },
         bSubTitle : false,
         subTitle: $.lang[lang].HELP_PARK_ONE_PASS_KEY,

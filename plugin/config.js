@@ -47,7 +47,7 @@ var service_list_config = [
     },
     {
         id : SERVICEID_PARKING_HISTORY, // "entry"
-        enabled : false,
+        enabled : true,
         path : "service/parking/",
         jsUri : "service/parking/js/parking_init.js",
         serverName : "entry,parking_history,주차기록",

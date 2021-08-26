@@ -44,7 +44,7 @@ function loadedParkingPage(service) {
   // showContentLoadingPage(true, parkingService);
   drawParkingPage();
 
-  if (ParkingLocationEnabled && ParkingHistoryEnabled) {
+  if (parkingObject.parking_service_available && parkingObject.entry_service_available) {
     $('#parkingPage').scrollStopped(function(ev) {
       let text = document.getElementById('actionBarTitle_detailed');
       if (text) {
@@ -321,8 +321,9 @@ function retryLoadParkingLocationCard() {
 
 
 function getParkingTitleText(subService) {
-  if (ParkingLocationEnabled && !(ParkingHistoryEnabled)
-    || !(ParkingLocationEnabled) && ParkingHistoryEnabled) {
+
+  if (parkingObject.parking_service_available && !(parkingObject.entry_service_available)
+    || !(parkingObject.parking_service_available) && parkingObject.entry_service_available ) {
     return $.lang[lang].PARKING_TAB;
   }
 
@@ -775,7 +776,7 @@ function drawParkingHistoryCard() {
 function drawParkingPageCommon() {
   let carlocation_reg_time;
   let carhistory_reg_time;
-  if (ParkingLocationEnabled && parkingObject.locationNum > 0) {
+  if (parkingObject.parking_service_available && parkingObject.locationNum > 0) {
     for (let idx = 0; idx < parkingObject.locationNum; idx++) {
       if (parkingObject.carlocationlist[idx].car_no && parkingObject.carlocationlist[idx].location) {
         carlocation_reg_time = parkingObject.carlocationlist[idx].reg_time;
@@ -783,7 +784,7 @@ function drawParkingPageCommon() {
       }
     }
   }
-  if (ParkingHistoryEnabled && parkingObject.historyNum > 0) {
+  if (parkingObject.entry_service_available && parkingObject.historyNum > 0) {
     for (let idx = 0; idx < parkingObject.historyNum; idx++) {
       if (parkingObject.carhistorylist[idx].car_no && parkingObject.carhistorylist[idx].status) {
         carhistory_reg_time = parkingObject.carhistorylist[idx].reg_time;
@@ -806,8 +807,8 @@ function drawParkingPageCommon() {
 
   let headerText = "";
   headerText += "<div class='parking_page_header'>";
-  if (ParkingLocationEnabled && parkingObject.locationNum > 0) {
-    if (ParkingHistoryEnabled && parkingObject.historyNum > 0 && (carlocation_reg_time && !carlocation_reg_time.isLatestTimeThan(carhistory_reg_time))) {
+  if (parkingObject.parking_service_available && parkingObject.locationNum > 0) {
+    if (parkingObject.entry_service_available && parkingObject.historyNum > 0 && (carlocation_reg_time && !carlocation_reg_time.isLatestTimeThan(carhistory_reg_time))) {
       for (let idx = 0; idx < parkingObject.historyNum; idx++) {
         let history = parkingObject.carhistorylist[idx];
         if (history.car_no && history.status) {
@@ -824,7 +825,7 @@ function drawParkingPageCommon() {
         }
       }
     }
-  } else if (ParkingHistoryEnabled && parkingObject.historyNum > 0) {
+  } else if (parkingObject.entry_service_available && parkingObject.historyNum > 0) {
     for (let idx = 0; idx < parkingObject.historyNum; idx++) {
       let history = parkingObject.carhistorylist[idx];
       if (history.car_no && history.status) {
@@ -836,10 +837,10 @@ function drawParkingPageCommon() {
   headerText += "</div>";
   document.getElementById('parkingPageHeader').innerHTML = headerText;
 
-  if (ParkingLocationEnabled) {
+  if (parkingObject.parking_service_available) {
     drawParkingLocationPage(parkingObject.itemsInCard); // 주차기록 item 로드
   }
-  if (ParkingHistoryEnabled) {
+  if (parkingObject.entry_service_available) {
     drawParkingHistoryPage(parkingObject.itemsInCard); // 입차기록 item 로드
   }
 
@@ -861,7 +862,7 @@ function drawParkingPageCommon() {
 function drawParkingPage() {
   let actionBar = document.getElementById("actionBarTitle_detailed");
 
-  if (ParkingLocationEnabled && ParkingHistoryEnabled) {
+  if (parkingObject.parking_service_available && parkingObject.entry_service_available) {
     actionBar.innerHTML = "<span>" + $.lang[lang].PARKING_TAB + "</span>";
     actionBar.innerHTML += "<span>" + $.lang[lang].PARKING_VEHICLE_ENTRY + "</span>";
     actionBar.childNodes[0].style.position = "absolute";

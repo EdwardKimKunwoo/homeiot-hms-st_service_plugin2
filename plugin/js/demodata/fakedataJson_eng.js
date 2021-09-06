@@ -55,6 +55,8 @@ var jsonDataUserInfo = {
      "message":"OK"
   },
   "data":{
+     "brandName" : "BOMZAK",
+     "brandColor":"#696B71",
      "local":"Gyeonggi-do",
      "apt_complex":"Yeongtong SmartVill",
      "building_no":"1118",

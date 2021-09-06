@@ -2234,7 +2234,7 @@ function getEPEnergyMinMaxByMonthly(energy){
 //	var maxMonth = (emsData.length>EMS_MAX_MONTH_Summary)?EMS_MAX_MONTH_Summary:emsData.length;
 		for(var i = 1; i < EMS_MAX_MONTH_Summary; i++) {
 		var tmpValue = toEnergyChartData(emsData.list[i].value);
-		if( parseInt(tmpValue) === 0) continue;
+		if( tmpValue === 0) continue;
 
 	  if (!maxvalue) {
 	    maxvalue = tmpValue;

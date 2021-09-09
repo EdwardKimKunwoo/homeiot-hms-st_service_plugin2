@@ -198,7 +198,7 @@ ParkingService.prototype = {
 		list:[
       {
         service_id: SERVICEID_PARKING_LOCATION,
-        imageUri: (lang === "ko") ? parkingImageUri + "help_info_img_location.png2" : parkingImageUri + "help_info_img_location_eng2.png",
+        imageUri: (lang === "ko") ? parkingImageUri + "help_info_img_location2.png" : parkingImageUri + "help_info_img_location2_eng.png",
         imageSize: { width:"100%", height:"auto" },
         bSubTitle : false,
         subTitle: $.lang[lang].HELP_PARK_ONE_PASS_KEY,

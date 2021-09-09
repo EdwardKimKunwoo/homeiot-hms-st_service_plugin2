@@ -130,6 +130,7 @@ var aptBrandInfoList = {
 var apt_info="";
 
 function setAptBrand(name) {
+    console.log("brandName: ", name);
     // set brand info
     let aptBrandInfo = aptBrandInfoList[name.toUpperCase()];
     if (!aptBrandInfo) {
@@ -137,6 +138,7 @@ function setAptBrand(name) {
     }
 
     // set css variables
+    /*
     let root = document.documentElement;
     root.style.setProperty("--brand-color", aptBrandInfo.brand_color);
     root.style.setProperty("--brand-color-8pro", aptBrandInfo.brand_color + "14");  // brandcolor + 8% alpha
@@ -144,7 +146,8 @@ function setAptBrand(name) {
     root.style.setProperty("--gradation-top-color", aptBrandInfo.gradation_top_color);
     root.style.setProperty("--gradation-middle-color", aptBrandInfo.gradation_middle_color);
     root.style.setProperty("--gradation-bottom-color", aptBrandInfo.gradation_bottom_color);
-
+    */
+    setBrandColorAnimation(aptBrandInfo.brand_color, 5000);
     // set apt_info text
     apt_info = aptBrandInfo.apt_info;
 
@@ -159,4 +162,74 @@ function setAptBrand(name) {
 
 }
 
-setAptBrand(apt_name);
+
+var setBrandColorAnimationId = 0;
+function setBrandColorAnimation(newColor, ms = 10000) {
+    if (setBrandColorAnimationId) {
+        clearInterval(setBrandColorAnimationId);
+        setBrandColorAnimationId = 0;
+    }
+    const interval = 50;
+    var step = 0;
+    var divider = Math.round(ms / interval);
+    var oldColor = getComputedStyle(document.documentElement).getPropertyValue("--brand-color");
+    var oldColorArr = oldColor.match(/\w\w/g).map(x => parseInt(x, 16));
+    var newColorArr = newColor.match(/\w\w/g).map(x => parseInt(x, 16));
+
+    setBrandColorAnimationId = setInterval(() => {
+        step++;
+        let tmpColor = newColor;
+        if (divider === step) {
+            clearInterval(setBrandColorAnimationId);
+            setBrandColorAnimationId = 0;
+        } else {
+            tmpColor = "#";
+            for(let i = 0 ; i < oldColorArr.length ; i++) {
+                let colorInt = oldColorArr[i] + Math.round(((newColorArr[i] - oldColorArr[i]) * step) / divider);
+                tmpColor += colorInt.toString(16).padStart(2, "0");
+            }
+        }
+        setBrandColor(tmpColor);
+    }, interval);
+}
+
+function toRGBA(hex) {
+    var h = hex.slice(1);
+
+    // Split to four channels
+    var c = h.match(/.{2}/g);
+    if(c.length != 4) {
+        console.error("Not in an appropriate RGBA form");
+        return '#FFFFFF';
+    }
+
+    // To decimals (for RGB)
+    var d = function(v) {
+        return parseInt(v, 16);
+    };
+
+    // To percentage (for alpha), to 3 decimals
+    var p = function(v) {
+        return parseFloat(parseInt((parseInt(v, 16)/255)*1000)/1000);
+    };
+
+    // Convert array into rgba values
+    var a, rgb = [];
+    a = p(c[3]);
+    $.each(c.slice(0,3), function(i,v) {
+        rgb.push(d(v));
+    });
+    rgb.push(a);
+
+    return "rgba(" + rgb + ")";
+}
+
+function setBrandColor(color) {
+    document.documentElement.style.setProperty("--brand-color", color);
+    document.documentElement.style.setProperty("--brand-color-8pro", toRGBA(color + "14"));     // 8% opacity of --brand-color
+    document.documentElement.style.setProperty("--brand-color-50pro", toRGBA(color + "80"));    // 50% opacity of --brand-color
+    document.documentElement.style.setProperty("--brand-color-80pro", toRGBA(color + "CC"));    // 80% opacity of --brand-color
+    document.documentElement.style.setProperty("--gradation-top-color", color);
+    document.documentElement.style.setProperty("--gradation-middle-color", color);
+    document.documentElement.style.setProperty("--gradation-bottom-color", color);
+}

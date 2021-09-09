@@ -12,7 +12,7 @@ This software is the confidential and proprietary information of SAMSUNG ELECTRO
 
 /** plugin version 
  * @constant {string} */
-const VERSION = "1.1.9";
+const VERSION = "1.1.11";
 /** release date
  * @constant {string} */
 const RELEASE_DATE = "2021.08.26";

@@ -2,7 +2,7 @@
   <manifest xmlns="http://samsung.com/ns/plugin"
       manifestVersionCode="0"
       package="com.sds.plugin.homenet.service"
-      versionCode="9"
+      versionCode="11"
       versionName="1.1.11"
       minPluginSdkVersion="1.1.0">
 

@@ -179,18 +179,18 @@ $.lang.ko = {
   // Help
   HELP_APT_SERVICE: "아파트 서비스", // DREAM_SACP_HEADER_APARTMENT_SERVICES
   HELP_VOICE_CMD: "음성 명령", // DREAM_SACP_HEADER_VOICE_CONTROL
-  HELP_NOTICE_DESC: "공지사항을 볼 수 있어요.",
-  HELP_DELIVERY_DESC: "최근 1개월 동안의 택배를 확인해 보세요.", // DREAM_SACP_BODY_SEE_GENERAL_MAIL_FOOD_AND_FROZEN_DELIVERIES_FROM_THE_PAST_2_MONTHS
+  HELP_NOTICE_DESC: "아파트 단지 공지사항을 볼 수 있습니다.",
+  HELP_DELIVERY_DESC: "택배가 도착한 날짜, 상태를 확인할 수 있습니다.", // DREAM_SACP_BODY_SEE_GENERAL_MAIL_FOOD_AND_FROZEN_DELIVERIES_FROM_THE_PAST_2_MONTHS
   HELP_PARK_ONE_PASS_KEY: "원패스 키",
   HELP_PARK_VEHICLE_ENTRY: "입차 기록",
   HELP_PARK_VEHICLE_EXIT: "출차 기록",
   HELP_PARK_VEHICLE_ENTRY_AND_EXIT: "출입차 기록",
-  HELP_PARK_LOCATION_DESC: "등록된 차량이 주차된 위치를 확인해 보세요.",
-  HELP_PARK_ENTRY_DESC: "등록된 차량이 아파트 단지에 입차한 시간을 확인해 보세요. 최근 2개월 동안의 기록을 확인할 수 있습니다.",
+  HELP_PARK_LOCATION_DESC: "등록한 차량의 주차위치를 확인할 수 있습니다.",
+  HELP_PARK_ENTRY_DESC: "등록된 차량의 입차 기록을 확인할 수 있습니다.",
   // HELP_PARK_DESC: "등록된 차량이 아파트 단지에 입차한 시간을 확인해 보세요. 최근 2개월 동안의 기록을 확인할 수 있습니다.", // DREAM_SACP_BODY_SEE_WHEN_YOUR_REGISTERED_VEHICLES_ENTERED_THE_APARTMENT_COMPLEX_DURING_THE_PAST_2_MONTHS
-  HELP_ENERGY_DESC: "전년도 동월 사용량을 비롯해 월간 에너지 사용량을 확인해 보세요. 이번 달 사용량은 최근 자동 검침일에 측정한 값을 기준으로 한 사용량입니다. 여기에 표시되는 에너지 사용량은 실제 사용량과 다를 수 있습니다.", //DREAM_SACP_BODY_CHECK_YOUR_MONTHLY_ENERGY_USAGE_DURING_THE_PAST_12_MONTHS_PLUS_YEAR_ON_YEAR_COMPARISONS_WITH_THE_PREVIOUS_YEAR_MSG
+  HELP_ENERGY_DESC: "세대의 에너지 사용량을 확인할 수 있습니다.\n 조회기간과 사용량 산정기간은, 단지별 관리사무소가 정한 사용량 산정 기간과 상이할 수 있고, 사용량은 검침일과 데이터 측정기간 차이로 인해 관리비 고지 내역과 다를 수 있습니다.", //DREAM_SACP_BODY_CHECK_YOUR_MONTHLY_ENERGY_USAGE_DURING_THE_PAST_12_MONTHS_PLUS_YEAR_ON_YEAR_COMPARISONS_WITH_THE_PREVIOUS_YEAR_MSG
   HELP_OPT_TITLE: "옵션", // DREAM_SACP_OPT_OPTIONS_M_SMARTTHINGS
-  HELP_OPT_FAVORITE_DESC: "편리하게 사용할 수 있도록 자주 사용하는 항목을 표시하거나 숨길 수 있고 순서를 변경할 수 있습니다. 숨긴 항목은 전체 메뉴에서 확인할 수 있습니다.", // DREAM_SACP_BODY_VIEW_HIDE_OR_REORDER_YOUR_FAVORITE_ITEMS_FOR_QUICK_ACCESS_ITEMS_THAT_ARE_HIDDEN_CAN_STILL_BE_FOUND_IN_THE_FULL_MENU
+  HELP_OPT_FAVORITE_DESC: "편리한 사용을 위해 즐겨찾기 편집으로 앱에서 보이기와 숨기기를 할 수 있고 상하 위치를 조정할 수 있습니다.", // DREAM_SACP_BODY_VIEW_HIDE_OR_REORDER_YOUR_FAVORITE_ITEMS_FOR_QUICK_ACCESS_ITEMS_THAT_ARE_HIDDEN_CAN_STILL_BE_FOUND_IN_THE_FULL_MENU
   HELP_OPT_NOTI_DESC: "유용한 정보를 받아보세요. 정보를 받고 싶지 않으면 알림을 끌 수 있습니다.", // DREAM_SACP_BODY_GET_NOTIFICATIONS_THAT_ARE_USEFUL_TO_YOU_OR_TURN_THEM_OFF_IF_YOU_DONT_WANT_TO_BE_INTERRUPTED
 
   CURRENCY_WON : "원",

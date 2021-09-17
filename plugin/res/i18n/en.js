@@ -178,18 +178,18 @@ $.lang.en = {
   // Help
   HELP_APT_SERVICE: "Apartment services", // DREAM_SACP_HEADER_APARTMENT_SERVICES
   HELP_VOICE_CMD: "Voice control", // DREAM_SACP_HEADER_VOICE_CONTROL
-  HELP_NOTICE_DESC: "You can see the apartment notice.",
-  HELP_DELIVERY_DESC: "See general deliveries from the past 1 months.", // DREAM_SACP_BODY_SEE_GENERAL_MAIL_FOOD_AND_FROZEN_DELIVERIES_FROM_THE_PAST_2_MONTHS
+  HELP_NOTICE_DESC: "Displays posted announcements.",
+  HELP_DELIVERY_DESC: "Displays parcels' arrival dates and conditions.", // DREAM_SACP_BODY_SEE_GENERAL_MAIL_FOOD_AND_FROZEN_DELIVERIES_FROM_THE_PAST_2_MONTHS
   HELP_PARK_ONE_PASS_KEY: "One-pass key",
   HELP_PARK_VEHICLE_ENTRY: "Vehicle entry",
   HELP_PARK_VEHICLE_EXIT: "Vehicle exit",
   HELP_PARK_VEHICLE_ENTRY_AND_EXIT: "Vehicle entry and exit",
-  HELP_PARK_LOCATION_DESC: "See where your registered vehicles parked in the apartment complex.",
-  HELP_PARK_ENTRY_DESC: "See when your registered vehicles entered the apartment complex during the past 2 months.",
+  HELP_PARK_LOCATION_DESC: "Displays the parking locations of registered cars.",
+  HELP_PARK_ENTRY_DESC: "Displays when your registered vehicles entered the apartment complex.",
   // HELP_PARK_DESC: "See when your registered vehicles entered the apartment complex during the past 2 months.", // DREAM_SACP_BODY_SEE_WHEN_YOUR_REGISTERED_VEHICLES_ENTERED_THE_APARTMENT_COMPLEX_DURING_THE_PAST_2_MONTHS
-  HELP_ENERGY_DESC: "Check your monthly energy usage, plus year-on-year comparisons with the previous year. Current month's data is available on the day the meter is read. Energy use shown here may differ from your actual usage.", //DREAM_SACP_BODY_CHECK_YOUR_MONTHLY_ENERGY_USAGE_DURING_THE_PAST_12_MONTHS_PLUS_YEAR_ON_YEAR_COMPARISONS_WITH_THE_PREVIOUS_YEAR_MSG
+  HELP_ENERGY_DESC: "Displays your household's energy usage.\nThe inquiry period and usage calculation period may be different from the usage calculation period set by the management office of each apartment complex. The usage may be different from that shown in the maintenance fee statement due to the difference between the meter-reading date and the data-measurement period.", //DREAM_SACP_BODY_CHECK_YOUR_MONTHLY_ENERGY_USAGE_DURING_THE_PAST_12_MONTHS_PLUS_YEAR_ON_YEAR_COMPARISONS_WITH_THE_PREVIOUS_YEAR_MSG
   HELP_OPT_TITLE: "Options", // DREAM_SACP_OPT_OPTIONS_M_SMARTTHINGS
-  HELP_OPT_FAVORITE_DESC: "View, hide, or reorder your favorite items for quick access. Items that are hidden can still be found in the full menu.", // DREAM_SACP_BODY_VIEW_HIDE_OR_REORDER_YOUR_FAVORITE_ITEMS_FOR_QUICK_ACCESS_ITEMS_THAT_ARE_HIDDEN_CAN_STILL_BE_FOUND_IN_THE_FULL_MENU
+  HELP_OPT_FAVORITE_DESC: "Edit/Display or hide your frequently used items in any order for your convenience.", // DREAM_SACP_BODY_VIEW_HIDE_OR_REORDER_YOUR_FAVORITE_ITEMS_FOR_QUICK_ACCESS_ITEMS_THAT_ARE_HIDDEN_CAN_STILL_BE_FOUND_IN_THE_FULL_MENU
   HELP_OPT_NOTI_DESC: "Get notifications that are useful to you, or turn them off if you don't want to be interrupted.", // DREAM_SACP_BODY_GET_NOTIFICATIONS_THAT_ARE_USEFUL_TO_YOU_OR_TURN_THEM_OFF_IF_YOU_DONT_WANT_TO_BE_INTERRUPTED
 
   CURRENCY_WON : " won",

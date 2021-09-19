@@ -8,6 +8,7 @@ This software is the confidential and proprietary information of SAMSUNG ELECTRO
 var aptBrandInfoList = {
     SMARTTHINGS: {
         brand_color: "#3695DD",
+        brand_color_dark: "#4B4B4B",
         gradation_top_color: "#49A5EA",
         gradation_middle_color: "#81BEEF",
         gradation_bottom_color: "#EAEDF1",
@@ -15,6 +16,7 @@ var aptBrandInfoList = {
     },
     RAEMIAN: {
         brand_color: "#2EACA7",
+        brand_color_dark: "#4B4B4B",
         gradation_top_color: "#45BCAF",
         gradation_middle_color: "#60D0B8",
         gradation_bottom_color: "#E4EFEF",
@@ -50,6 +52,7 @@ var aptBrandInfoList = {
     },
     RBDK: {
         brand_color: "#2B3C4D",
+        brand_color_dark: "#4B4B4B",
         gradation_top_color: "#52616F",
         gradation_middle_color: "#ABB1B6",
         gradation_bottom_color: "#DFE1E1",
@@ -85,6 +88,7 @@ var aptBrandInfoList = {
     },
     IAAN: {
         brand_color: "#3695DD",
+        brand_color_dark: "#4B4B4B",
         gradation_top_color: "#3695DD",
         gradation_middle_color: "#3695DD",
         gradation_bottom_color: "#3695DD",
@@ -92,6 +96,7 @@ var aptBrandInfoList = {
     },
     BOMZAK: {
         brand_color: "#696B71",
+        brand_color_dark: "#4B4B4B",
         gradation_top_color: "#696B71",
         gradation_middle_color: "#696B71",
         gradation_bottom_color: "#696B71",
@@ -99,6 +104,7 @@ var aptBrandInfoList = {
     },
     PENTHILL: {
         brand_color: "#3B5043",
+        brand_color_dark: "#4B4B4B",
         gradation_top_color: "#3B5043",
         gradation_middle_color: "#3B5043",
         gradation_bottom_color: "#3B5043",
@@ -120,6 +126,7 @@ var aptBrandInfoList = {
     },
     RAEMIAN_LEADERSONE: {
         brand_color: "#2EACA7",
+        brand_color_dark: "#4B4B4B",
         gradation_top_color: "#45BCAF",
         gradation_middle_color: "#60D0B8",
         gradation_bottom_color: "#E4EFEF",
@@ -148,6 +155,7 @@ function setAptBrand(name) {
     root.style.setProperty("--gradation-bottom-color", aptBrandInfo.gradation_bottom_color);
     */
     setBrandColorAnimation(aptBrandInfo.brand_color, 5000);
+    document.documentElement.style.setProperty("--brand-color-dark", aptBrandInfo.brand_color_dark);
     // set apt_info text
     apt_info = aptBrandInfo.apt_info;
 

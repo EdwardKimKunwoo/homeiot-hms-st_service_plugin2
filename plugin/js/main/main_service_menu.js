@@ -94,6 +94,8 @@ function drawMainServiceMenu(bExpanded) {
 
     $("#service_menu_button").addClass("service_menu_button_css");
     $("#main_service_menu_div").css("background-color", "");
+    $("#service_menu_button").css("background-color", "var(--brand-color-dark)");
+    $("#service_menu_button").css("opacity", "50%");
 
   } else {
     retHtml =
@@ -105,7 +107,8 @@ function drawMainServiceMenu(bExpanded) {
     document.getElementById('main_service_menu_title').innerHTML = retHtml;
 
     $("#service_menu_button").addClass("service_menu_expand_button_css");
-    $("#main_service_menu_div").css("background-color", "var(--brand-color)");
+    $("#main_service_menu_div").css("background-color", "var(--brand-color-dark)");
+    $("#main_service_menu_div").css("opacity", "50%");
 
     relocateMainServiceMenuExpand();
   }

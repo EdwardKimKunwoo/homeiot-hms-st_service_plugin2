@@ -2229,7 +2229,7 @@ function drawEPEnergy(energy,monthIndex)
 
 function getEPEnergyMinMaxByMonthly(energy){
 	var emsData = getEnergyInfoByMonthIndex(energy,0);
-	var maxvalue=0, maxIndex=0, minvalue=0, minIndex=0;
+	var maxvalue=0, maxIndex=1, minvalue=0, minIndex=1;
 
 //	var maxMonth = (emsData.length>EMS_MAX_MONTH_Summary)?EMS_MAX_MONTH_Summary:emsData.length;
 		for(var i = 1; i < EMS_MAX_MONTH_Summary; i++) {
@@ -2295,8 +2295,8 @@ function drawEPEnergySummary(energy,monthIndex){
 	var minDiv = document.getElementById("ep_summary_min_max");
 	var energy = minDiv.setAttribute('energy',energy);
 
-	if(tmpCount === "0"){
-		tmpMonthCountText = "(&nbsp&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&nbsp)";
+	if(tmpCount === "0" || (tmpMinData_year === tmpMaxData_year && tmpMinData_month === tmpMaxData_month && parseInt(emsData.list[1].value) === 0)){
+		tmpMonthCountText = "&nbsp&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&nbsp";
 		tmpMinData_year = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-";
 		tmpMinData_month = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
 		tmpMaxData_year = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-";

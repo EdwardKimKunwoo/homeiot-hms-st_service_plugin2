@@ -338,15 +338,34 @@ function createOptionMenu() {
 
   mainScreenMenuArr.menuItem = [];
   if (currentTab === "MAIN_SCREEN") {
-    mainScreenMenuArr.menuItem.push({
-      title: $.lang[lang].MAINEDIT,
-      href: "#"+SCREEN_OPTION_FB_EDIT,
-      fun: menuMainEdit
-    });
-    mainScreenMenuArr.menuItem.push({
-      title: $.lang[lang].ALARM,
-      href: "#"+SCREEN_OPTION_ALARM
-    });
+    // console.log("serviceList : ", serviceList );
+    let count1 = 0;
+    let count2 = 0;
+    for(let i=0; i<serviceList.length; i++){
+      if(serviceList[i].enabled === true){
+        count1++;
+      }
+
+      if(serviceList[i].enabled === true && serviceList[i].serviceId != 'EMS'){
+        count2++;
+      }
+    }
+
+    if(count1>1){
+      mainScreenMenuArr.menuItem.push({
+        title: $.lang[lang].MAINEDIT,
+        href: "#"+SCREEN_OPTION_FB_EDIT,
+        fun: menuMainEdit
+      });
+    }
+    
+    if(count2>0){
+      mainScreenMenuArr.menuItem.push({
+        title: $.lang[lang].ALARM,
+        href: "#"+SCREEN_OPTION_ALARM
+      });
+    }
+    
     mainScreenMenuArr.menuItem.push({
       title: $.lang[lang].HELP_PAGE,
       href: "#"+SCREEN_OPTION_HELP

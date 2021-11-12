@@ -321,16 +321,10 @@ function retryLoadParkingLocationCard() {
 
 
 function getParkingTitleText(subService) {
-
-  if (parkingObject.parking_service_available && !(parkingObject.entry_service_available)
-    || !(parkingObject.parking_service_available) && parkingObject.entry_service_available ) {
-    return $.lang[lang].PARKING_TAB;
-  }
-
   if (subService === "location") {
     return $.lang[lang].PARKING_LOCATION_FC_TEXT;
   } else if (subService === "history") {
-    return $.lang[lang].PARKING_VEHICLE_ENTRY;
+    return $.lang[lang].PARKING_HISTORY_FC_TEXT;
   }
 
   return "";

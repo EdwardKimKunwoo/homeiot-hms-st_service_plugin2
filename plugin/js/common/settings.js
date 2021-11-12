@@ -12,10 +12,10 @@ This software is the confidential and proprietary information of SAMSUNG ELECTRO
 
 /** plugin version 
  * @constant {string} */
-const VERSION = "1.1.15";
+const VERSION = "1.1.16";
 /** release date
  * @constant {string} */
-const RELEASE_DATE = "2021.11.11";
+const RELEASE_DATE = "2021.11.12";
 const CODE = "01";
 const PACKAGE = "HAS";
 /** API type

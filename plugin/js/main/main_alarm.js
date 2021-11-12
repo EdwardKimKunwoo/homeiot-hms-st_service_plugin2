@@ -58,7 +58,7 @@ function getServerAlarmSettingDataCallback(response) {
 }
 
 function parseServerAlarmSettingData(response) {
-    console.log("parseServerAlarmSettingData" + "() called...");
+    console.log("parseServerAlarmSettingData" + "() called...", response);
     if (response.result.status === RESPONSE_OK) {
         // alarm 설정 list를 초기화한다.
         for (let i = 0 ; i < alarmObject.list.length ; i++) {
@@ -176,6 +176,7 @@ function drawMainScreenAlarmPage() {
     for (var i = 0; i < alarmObject.list.length; i++) {
         if (!alarmObject.list[i].enabled) continue;
         if(!isServicedService(alarmObject.list[i].service_id)) continue
+        if (alarmObject.list[i].service_id === "parking" && isServicedService("entry")) continue;
 
         if (i !== 0) drawHtml += "<div class='basic_list_default_bar'></div>";
         var isChecked = (alarmObject.list[i].status === "on") ? true : false;

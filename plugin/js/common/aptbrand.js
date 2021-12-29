@@ -110,6 +110,14 @@ var aptBrandInfoList = {
         gradation_bottom_color: "#3B5043",
         apt_info: ((lang === "ko") ? "펜트힐" : "PENTHILL"),
     },
+    LIIZHILLS: {
+        brand_color: "#25497B",
+        brand_color_dark: "#4B4B4B",
+        gradation_top_color: "#3B5043",
+        gradation_middle_color: "#3B5043",
+        gradation_bottom_color: "#3B5043",
+        apt_info: ((lang === "ko") ? "리즈힐스" : "LIIZHILLS"),
+    },
     LUXNINE: {
         brand_color: "#691863",
         gradation_top_color: "#90598C",

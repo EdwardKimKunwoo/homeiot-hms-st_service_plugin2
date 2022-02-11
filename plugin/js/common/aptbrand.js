@@ -118,6 +118,14 @@ var aptBrandInfoList = {
         gradation_bottom_color: "#3B5043",
         apt_info: ((lang === "ko") ? "리즈힐스" : "LIIZHILLS"),
     },
+    AVENUEFORET: {
+        brand_color: "#3695DD",
+        brand_color_dark: "#4B4B4B",
+        gradation_top_color: "#49A5EA",
+        gradation_middle_color: "#81BEEF",
+        gradation_bottom_color: "#EAEDF1",
+        apt_info: ((lang === "ko") ? "애비뉴 포레" : "AVENUE FORET"),
+    },
     LUXNINE: {
         brand_color: "#691863",
         gradation_top_color: "#90598C",

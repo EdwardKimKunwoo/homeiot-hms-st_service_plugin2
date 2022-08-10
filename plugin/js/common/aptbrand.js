@@ -127,7 +127,7 @@ var aptBrandInfoList = {
         apt_info: ((lang === "ko") ? "애비뉴 포레" : "AVENUE FORET"),
     },
     REUS: {
-        brand_color: "#3695DD",
+        brand_color: "#9E7D6F",
         brand_color_dark: "#4B4B4B",
         gradation_top_color: "#49A5EA",
         gradation_middle_color: "#81BEEF",

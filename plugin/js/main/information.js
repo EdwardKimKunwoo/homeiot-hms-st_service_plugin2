@@ -55,8 +55,8 @@ function drawInformationSummary() {
     "<div style='height:60px;width:auto;text-align:center;'></div>" +
     "<div id='infoServiceName'>" + apt_info + "</div>" +
     "<div id='infoVersion'>" + VERSION + "</div>" +
-    "<div id='infoVersion'>SAMSUNG SDS</div>" +
-    "<div id='infoVersion'>1661-3311</div>" +    
+    "<div id='infoVersion'>ZIGBANG</div>" +
+    "<div id='infoVersion'>1588-4141</div>" +    
     "<div style='height:162px;position:absolute;bottom:46px;width:100%;text-align:-webkit-center;'>"+
       "<div id='infoOpenBoxTerms'  class='infoOpenBox' style='margin-bottom:15px' >" +
         $.lang[lang].TERMS_N_CONDITIONS +
